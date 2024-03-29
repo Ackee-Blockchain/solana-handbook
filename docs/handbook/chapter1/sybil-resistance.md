@@ -1,0 +1,4 @@
+# Sybil Resistance
+
+To prevent a single entity from taking over the network, there must be a mechanism put in place so that no one can just spawn more nodes that can mine or vote (depending on the network) and thus subvert the network reputation system. These dishonest nodes would be able to out-vote honest nodes and start censoring transactions, approving invalid transactions, or changing the entire protocol.
+Currently, the two most common Sybil resistance mechanisms are PoW (Proof-of-Work) and PoS (Proof-of-Stake). The former employs a model where miners in the network are given a chance to mine a block that is proportional to their hashing power in the network and is used in Bitcoin [8]. The latter is a new type of model for voting-based networks, where a validator is given the power of their vote proportionally to staked coins.
