@@ -1,2 +1,1 @@
-# Welcome to the Solana Handbook
-## Chapter 1
+# Blockchain Terminology

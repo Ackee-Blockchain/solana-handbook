@@ -1,2 +1,1 @@
-# Welcome to the Solana Handbook
-## Appendix A
+# Appendix A - Ecosystem

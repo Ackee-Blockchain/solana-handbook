@@ -1,2 +1,1 @@
-# Welcome to the Solana Handbook
-## Chapter 5
+# Solana Program Library

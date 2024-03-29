@@ -1,2 +1,1 @@
-# Welcome to the Solana Handbook
-## Chapter 4
+# Programming Model
