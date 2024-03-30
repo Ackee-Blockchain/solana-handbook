@@ -2,12 +2,12 @@ site_name: Solana Handbook
 site_url: https://ackeeblockchain.com/solana-handbook
 repo_url: https://github.com/Ackee-Blockchain/solana-handbook
 repo_name: Ackee-Blockchain/solana-handbook
-site_description: Solana Handbook
+site_description: For Experts by Experts
 site_author: Ackee Blockchain
 
 
 nav:
-  - About: index.md
+  - Home: index.md
   - Solana Handbook:
     - Solana Handbook: handbook/introduction/index.md
     - Chapter 1 - Terminology:
@@ -62,19 +62,19 @@ theme:
   name: material
   logo: 'images/abch-logo.png'
   favicon: 'images/favicon.ico'
-  custom_dir: docs/overrides
+  custom_dir: material/overrides
   # https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/?h=palette+sw#color-palette-toggle
   palette:
-    - scheme: default # light mode scheme
-      primary: black
-      toggle:
-        icon: material/lightbulb
-        name: Switch to dark mode
-    - scheme: slate  # dark mode scheme
-      primary: black
-      toggle:
-        icon: material/lightbulb-outline
-        name: Switch to light mode
+  - scheme: default # light mode scheme
+    primary: black
+    toggle:
+      icon: material/lightbulb
+      name: Switch to dark mode
+  - scheme: slate  # dark mode scheme
+    primary: black
+    toggle:
+      icon: material/lightbulb-outline
+      name: Switch to light mode
   features:
   # https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/#instant-loading
     - navigation.instant

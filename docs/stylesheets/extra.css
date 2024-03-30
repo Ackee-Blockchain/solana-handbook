@@ -10,19 +10,6 @@
     --md-code-hl-comment-color: #09902d;
 }
 
-/* Update font and font size of "# Title 1" */
-.md-typeset h1 {
-    font-size: 32px;
-    font-family: 'Merriweather', serif;
-    padding: 12px;
-    margin-bottom: 20px;
-}
-
-/* Update font of basic text*/
-body {
-    font-family: 'Source Sans Pro', sans-serif;
-}
-
 /*
     rotate hue so that the image will be modified based on the background
 */
