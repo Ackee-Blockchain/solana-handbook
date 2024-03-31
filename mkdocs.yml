@@ -43,6 +43,7 @@ nav:
         - handbook/chapter4/runtime-policy.md
         - handbook/chapter4/calling-between-programs.md
     - Chapter 5 - Solana Program Library:
+        - handbook/chapter5/index.md
         - Token: handbook/chapter5/token-program.md
         - Associated Token: handbook/chapter5/associated-token-acc-program.md
         - Token 2022: handbook/chapter5/token-2022.md
@@ -126,7 +127,8 @@ markdown_extensions:
   # used for fractions and math
   - pymdownx.arithmatex:
       generic: true
-
+  # https://squidfunk.github.io/mkdocs-material/reference/data-tables/
+  - tables
   # https://squidfunk.github.io/mkdocs-material/reference/math/
   # used for fractions and math
 extra_javascript:
