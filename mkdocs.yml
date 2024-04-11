@@ -7,54 +7,51 @@ site_author: Ackee Blockchain
 
 
 nav:
-  - Home: index.md
-  - Solana Handbook:
-    - Solana Handbook: handbook/introduction/index.md
-    - Chapter 1 - Terminology:
-        - handbook/chapter1/blockchain.md
-        - handbook/chapter1/block.md
-        - handbook/chapter1/transaction.md
-        - handbook/chapter1/protocol.md
-        - handbook/chapter1/coin.md
-        - handbook/chapter1/nodes.md
-        - handbook/chapter1/consensus.md
-        - handbook/chapter1/sybil-resistance.md
-        - handbook/chapter1/security.md
-        - handbook/chapter1/smart-contract.md
-    - Chapter 2 - Solana Introduction:
-        - handbook/chapter2/comparison-to-ethereum.md
-        - handbook/chapter2/rust-development.md
-    - Chapter 3 - Core Concepts:
-        - handbook/chapter3/index.md
-        - Proof of History: handbook/chapter3/proof-of-history.md
-        - Tower BFT: handbook/chapter3/tower-bft.md
-        - Turbine: handbook/chapter3/turbine.md
-        - Gulf Stream: handbook/chapter3/gulf-stream.md
-        - Sealevel: handbook/chapter3/sealevel.md
-        - Pipelining: handbook/chapter3/pipelining.md
-        - Cloudbreak: handbook/chapter3/cloudbreak.md
-        - Archivers: handbook/chapter3/archivers.md
-    - Chapter 4 - Programming Model:
-        - handbook/chapter4/communication-with-network.md
-        - handbook/chapter4/overview.md
-        - handbook/chapter4/transaction-key-elements.md
-        - handbook/chapter4/transaction-anatomy.md
-        - handbook/chapter4/account-anatomy.md
-        - handbook/chapter4/runtime-policy.md
-        - handbook/chapter4/calling-between-programs.md
-    - Chapter 5 - Solana Program Library:
-        - handbook/chapter5/index.md
-        - Token: handbook/chapter5/token-program.md
-        - Associated Token: handbook/chapter5/associated-token-acc-program.md
-        - Token 2022: handbook/chapter5/token-2022.md
-        - Account Compression: handbook/chapter5/account-compression-program.md
-    - Appendix A - Ecosystem:
-        - handbook/appendixA/index.md
-    - Appendix B - NFTs:
-        - handbook/appendixB/index.md
-    - Appendix C - Gaming:
-        - handbook/appendixC/index.md
-  - Document Revisions: revisions/index.md
+  - Getting started: index.md
+  - Chapter 1 - Terminology:
+      - handbook/chapter1/blockchain.md
+      - handbook/chapter1/block.md
+      - handbook/chapter1/transaction.md
+      - handbook/chapter1/protocol.md
+      - handbook/chapter1/coin.md
+      - handbook/chapter1/nodes.md
+      - handbook/chapter1/consensus.md
+      - handbook/chapter1/sybil-resistance.md
+      - handbook/chapter1/security.md
+      - handbook/chapter1/smart-contract.md
+  - Chapter 2 - Solana Introduction:
+      - handbook/chapter2/comparison-to-ethereum.md
+      - handbook/chapter2/rust-development.md
+  - Chapter 3 - Core Concepts:
+      - handbook/chapter3/index.md
+      - Proof of History: handbook/chapter3/proof-of-history.md
+      - Tower BFT: handbook/chapter3/tower-bft.md
+      - Turbine: handbook/chapter3/turbine.md
+      - Gulf Stream: handbook/chapter3/gulf-stream.md
+      - Sealevel: handbook/chapter3/sealevel.md
+      - Pipelining: handbook/chapter3/pipelining.md
+      - Cloudbreak: handbook/chapter3/cloudbreak.md
+      - Archivers: handbook/chapter3/archivers.md
+  - Chapter 4 - Programming Model:
+      - handbook/chapter4/communication-with-network.md
+      - handbook/chapter4/overview.md
+      - handbook/chapter4/transaction-key-elements.md
+      - handbook/chapter4/transaction-anatomy.md
+      - handbook/chapter4/account-anatomy.md
+      - handbook/chapter4/runtime-policy.md
+      - handbook/chapter4/calling-between-programs.md
+  - Chapter 5 - Solana Program Library:
+      - handbook/chapter5/index.md
+      - Token: handbook/chapter5/token-program.md
+      - Associated Token: handbook/chapter5/associated-token-acc-program.md
+      - Token 2022: handbook/chapter5/token-2022.md
+      - Account Compression: handbook/chapter5/account-compression-program.md
+  - Appendix A - Ecosystem:
+      - handbook/appendixA/index.md
+  - Appendix B - NFTs:
+      - handbook/appendixB/index.md
+  - Appendix C - Gaming:
+      - handbook/appendixC/index.md
 
 # Beware this is strongly dependent on names of folders , example:
 # images have to be stored within the docs/images folder
@@ -63,7 +60,7 @@ theme:
   name: material
   logo: 'images/abch-logo.png'
   favicon: 'images/favicon.ico'
-  custom_dir: material/overrides
+  custom_dir: overrides
   # https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/?h=palette+sw#color-palette-toggle
   palette:
   - scheme: default # light mode scheme
@@ -80,16 +77,17 @@ theme:
   # https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/#instant-loading
     - navigation.instant
   # https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/#navigation-expansion
-    # - navigation.expand
+    - navigation.expand
   # https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/#back-to-top-button
     - navigation.top
-  # https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/#navigation-tabs
-    - navigation.tabs
   # https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/#section-index-pages
     - navigation.indexes
   # https://squidfunk.github.io/mkdocs-material/reference/code-blocks/?h=content+copy#code-copy-button
     - content.code.copy
-
+  # https://squidfunk.github.io/mkdocs-material/setup/setting-up-site-search/#search-suggestions
+    - search.suggest
+  # https://squidfunk.github.io/mkdocs-material/setup/setting-up-the-footer/
+    - navigation.footer
 # https://squidfunk.github.io/mkdocs-material/setup/setting-up-the-footer/?h=social#social-links
 extra:
   social:
@@ -106,6 +104,8 @@ plugins:
   - macros
   - minify:
       minify_html: true
+  - git-revision-date-localized:
+      enable_creation_date: false
 
 # https://squidfunk.github.io/mkdocs-material/customization/?h=extra+css#additional-css
 extra_css:
@@ -131,6 +131,7 @@ markdown_extensions:
   - tables
   # https://squidfunk.github.io/mkdocs-material/reference/math/
   # used for fractions and math
+
 extra_javascript:
   - javascripts/mathjax.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
