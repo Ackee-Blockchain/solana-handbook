@@ -9,21 +9,21 @@ site_author: Ackee Blockchain
 nav:
   - Getting started: index.md
   - Chapter 1 - Terminology:
-      - handbook/chapter1/blockchain.md
-      - handbook/chapter1/block.md
-      - handbook/chapter1/transaction.md
-      - handbook/chapter1/protocol.md
-      - handbook/chapter1/coin.md
-      - handbook/chapter1/nodes.md
-      - handbook/chapter1/consensus.md
-      - handbook/chapter1/sybil-resistance.md
-      - handbook/chapter1/security.md
-      - handbook/chapter1/smart-contract.md
+      - Block: handbook/chapter1/block.md
+      - Blockchain: handbook/chapter1/blockchain.md
+      - Transaction: handbook/chapter1/transaction.md
+      - Protocol: handbook/chapter1/protocol.md
+      - Coin: handbook/chapter1/coin.md
+      - Nodes: handbook/chapter1/nodes.md
+      - Consensus: handbook/chapter1/consensus.md
+      - Sybil-Resistance: handbook/chapter1/sybil-resistance.md
+      - Security: handbook/chapter1/security.md
+      - Smart-Contract: handbook/chapter1/smart-contract.md
   - Chapter 2 - Solana Introduction:
-      - handbook/chapter2/comparison-to-ethereum.md
-      - handbook/chapter2/rust-development.md
+      - Comparison to Ethereum: handbook/chapter2/comparison-to-ethereum.md
+      - Rust development: handbook/chapter2/rust-development.md
   - Chapter 3 - Core Concepts:
-      - handbook/chapter3/index.md
+      - Core Concepts: handbook/chapter3/core-concepts.md
       - Proof of History: handbook/chapter3/proof-of-history.md
       - Tower BFT: handbook/chapter3/tower-bft.md
       - Turbine: handbook/chapter3/turbine.md
@@ -33,25 +33,35 @@ nav:
       - Cloudbreak: handbook/chapter3/cloudbreak.md
       - Archivers: handbook/chapter3/archivers.md
   - Chapter 4 - Programming Model:
-      - handbook/chapter4/communication-with-network.md
-      - handbook/chapter4/overview.md
-      - handbook/chapter4/transaction-key-elements.md
-      - handbook/chapter4/transaction-anatomy.md
-      - handbook/chapter4/account-anatomy.md
-      - handbook/chapter4/runtime-policy.md
-      - handbook/chapter4/calling-between-programs.md
+      - Communication with network: handbook/chapter4/communication-with-network.md
+      - Overview: handbook/chapter4/overview.md
+      - Transaction key elements: handbook/chapter4/transaction-key-elements.md
+      - Transaction Anatomy: handbook/chapter4/transaction-anatomy.md
+      - Account Anatomy: handbook/chapter4/account-anatomy.md
+      - Runtime Policy: handbook/chapter4/runtime-policy.md
+      - Calling between Programs: handbook/chapter4/calling-between-programs.md
   - Chapter 5 - Solana Program Library:
-      - handbook/chapter5/index.md
+      - Solana Program Library: handbook/chapter5/solana-program-library.md
       - Token: handbook/chapter5/token-program.md
       - Associated Token: handbook/chapter5/associated-token-acc-program.md
       - Token 2022: handbook/chapter5/token-2022.md
       - Account Compression: handbook/chapter5/account-compression-program.md
   - Appendix A - Ecosystem:
-      - handbook/appendixA/index.md
+      - Wallets: handbook/appendixA/wallets.md
+      - Popular Projects: handbook/appendixA/popular-projects.md
+      - Solana Mobile Phone: handbook/appendixA/solana-mobile-phone.md
   - Appendix B - NFTs:
-      - handbook/appendixB/index.md
+      - NFTs: handbook/appendixB/nfts.md
+      - What is Metaplex?: handbook/appendixB/what-is-metaplex.md
+      - Token Metadata Program: handbook/appendixB/token-metadata-program.md
+      - What has this got to do with NFTs?: handbook/appendixB/what-nfts.md
+      - Is this all ? “No, Token Standard”: handbook/appendixB/token-standard.md
+      - Candy Machine: handbook/appendixB/candy-machine.md
+      - Compression: handbook/appendixB/compression.md
+      - Storing Metadata Off-chain: handbook/appendixB/metadata-off-chain.md
+      - Executable NFT: handbook/appendixB/executable-nft.md
   - Appendix C - Gaming:
-      - handbook/appendixC/index.md
+      - Gaming: handbook/appendixC/index.md
 
 # Beware this is strongly dependent on names of folders , example:
 # images have to be stored within the docs/images folder
@@ -74,20 +84,19 @@ theme:
       icon: material/lightbulb-outline
       name: Switch to light mode
   features:
-  # https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/#instant-loading
-    - navigation.instant
-  # https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/#navigation-expansion
-    - navigation.expand
-  # https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/#back-to-top-button
-    - navigation.top
-  # https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/#section-index-pages
-    - navigation.indexes
-  # https://squidfunk.github.io/mkdocs-material/reference/code-blocks/?h=content+copy#code-copy-button
-    - content.code.copy
-  # https://squidfunk.github.io/mkdocs-material/setup/setting-up-site-search/#search-suggestions
-    - search.suggest
-  # https://squidfunk.github.io/mkdocs-material/setup/setting-up-the-footer/
-    - navigation.footer
+    # https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/#navigation-expansion
+      - navigation.expand
+    # https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/#back-to-top-button
+      - navigation.top
+    # https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/#section-index-pages
+      - navigation.indexes
+    # https://squidfunk.github.io/mkdocs-material/reference/code-blocks/?h=content+copy#code-copy-button
+      - content.code.copy
+    # https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/#navigation-sections
+      - navigation.sections
+    # may be used
+      # - navigation.footer
+
 # https://squidfunk.github.io/mkdocs-material/setup/setting-up-the-footer/?h=social#social-links
 extra:
   social:

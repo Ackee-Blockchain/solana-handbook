@@ -1,6 +1,6 @@
 # Token 2022 Program
 
-The Token-2022 Program [20] extends the functionality provided by the Token Program. This means that the Token-2022 program is backward compatible and includes all the functions of the original Token program, as well as additional functionality often referred to as token extensions. You can think of the extensions as a series of options, features, and capabilities built into the newest iteration of the Solana token program.
+The Token-2022 Program extends the functionality provided by the Token Program. This means that the Token-2022 program is backward compatible and includes all the functions of the original Token program, as well as additional functionality often referred to as token extensions. You can think of the extensions as a series of options, features, and capabilities built into the newest iteration of the Solana token program.
 
 ## Benefits
 
@@ -29,4 +29,4 @@ Current account extensions include:
 - **Default account state**: Freezes all new token accounts so that users must interact with the project in some way to unfreeze the accounts/tokens.
 - **CPI guard**: Restricts how other programs can interact with your token by prohibiting certain actions inside cross-program invocations.
 - **Reallocate**: Some extensions can be enabled after account creation. Reallocate allows owners in this situation to reallocate their token account to create room for more extensions.
-For a complete explanation and guide about the Token 2022 Program and its extensions see [20].
+For a complete explanation and guide about the Token 2022 Program and its extensions see.

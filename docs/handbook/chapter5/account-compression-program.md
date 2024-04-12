@@ -1,6 +1,6 @@
 # Account Compression Program
 
-The Account Compression Program [21] is an innovative on-chain system designed to alleviate the rising concern of storage costs on the Solana blockchain. Its main application revolves around the utilization of SPL ConcurrentMerkleTrees, allowing for the on-chain verification of off-chain data edits. This innovative solution has been crafted in response to the challenges brought about by the increased creation of Non-Fungible Tokens (NFTs) on the Solana blockchain.
+The Account Compression Program is an innovative on-chain system designed to alleviate the rising concern of storage costs on the Solana blockchain. Its main application revolves around the utilization of SPL ConcurrentMerkleTrees, allowing for the on-chain verification of off-chain data edits. This innovative solution has been crafted in response to the challenges brought about by the increased creation of Non-Fungible Tokens (NFTs) on the Solana blockchain.
 
 ## Motivation
 

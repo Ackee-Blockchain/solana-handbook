@@ -2,7 +2,7 @@
 
 It is not enough to be able to form a consensus and share a block with the rest of the network quickly. A node must validate and execute all those transactions in received blocks before another block comes.
 
-For this reason, the Solana team developed something called the Transaction Processing Unit (TPU) [14]. The TPU works as a processor and extensively uses pipelining, a common CPU optimization that helps keep the chip more utilized by splitting an instruction execution into stages. It is a general way to keep all the hardware parts busy instead of idle. This concept of pipelining was borrowed, and that is how the TPU was born.
+For this reason, the Solana team developed something called the Transaction Processing Unit (TPU). The TPU works as a processor and extensively uses pipelining, a common CPU optimization that helps keep the chip more utilized by splitting an instruction execution into stages. It is a general way to keep all the hardware parts busy instead of idle. This concept of pipelining was borrowed, and that is how the TPU was born.
 
 The pipeline stages of TPU are following (Figure 1.6):
 - Data fetch in kernel space via network card (I/O)
