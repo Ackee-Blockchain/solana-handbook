@@ -2,197 +2,237 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://ackeeblockchain.com/solana-handbook/latest/</loc>
-         <lastmod>2024-04-07</lastmod>
+         <lastmod>2024-06-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://ackeeblockchain.com/solana-handbook/latest/handbook/appendixA/</loc>
-         <lastmod>2024-04-07</lastmod>
+         <loc>https://ackeeblockchain.com/solana-handbook/latest/handbook/appendixA/popular-projects/</loc>
+         <lastmod>2024-06-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://ackeeblockchain.com/solana-handbook/latest/handbook/appendixB/</loc>
-         <lastmod>2024-04-07</lastmod>
+         <loc>https://ackeeblockchain.com/solana-handbook/latest/handbook/appendixA/solana-mobile-phone/</loc>
+         <lastmod>2024-06-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://ackeeblockchain.com/solana-handbook/latest/handbook/appendixC/</loc>
-         <lastmod>2024-04-07</lastmod>
+         <loc>https://ackeeblockchain.com/solana-handbook/latest/handbook/appendixA/wallets/</loc>
+         <lastmod>2024-06-17</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://ackeeblockchain.com/solana-handbook/latest/handbook/appendixB/candy-machine/</loc>
+         <lastmod>2024-06-17</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://ackeeblockchain.com/solana-handbook/latest/handbook/appendixB/compression/</loc>
+         <lastmod>2024-06-17</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://ackeeblockchain.com/solana-handbook/latest/handbook/appendixB/executable-nft/</loc>
+         <lastmod>2024-06-17</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://ackeeblockchain.com/solana-handbook/latest/handbook/appendixB/metadata-off-chain/</loc>
+         <lastmod>2024-06-17</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://ackeeblockchain.com/solana-handbook/latest/handbook/appendixB/nfts/</loc>
+         <lastmod>2024-06-17</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://ackeeblockchain.com/solana-handbook/latest/handbook/appendixB/token-metadata-program/</loc>
+         <lastmod>2024-06-17</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://ackeeblockchain.com/solana-handbook/latest/handbook/appendixB/token-standard/</loc>
+         <lastmod>2024-06-17</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://ackeeblockchain.com/solana-handbook/latest/handbook/appendixB/what-is-metaplex/</loc>
+         <lastmod>2024-06-17</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://ackeeblockchain.com/solana-handbook/latest/handbook/appendixB/what-nfts/</loc>
+         <lastmod>2024-06-17</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://ackeeblockchain.com/solana-handbook/latest/handbook/appendixC/gaming/</loc>
+         <lastmod>2024-06-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://ackeeblockchain.com/solana-handbook/latest/handbook/chapter1/block/</loc>
-         <lastmod>2024-04-07</lastmod>
+         <lastmod>2024-06-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://ackeeblockchain.com/solana-handbook/latest/handbook/chapter1/blockchain/</loc>
-         <lastmod>2024-04-07</lastmod>
+         <lastmod>2024-06-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://ackeeblockchain.com/solana-handbook/latest/handbook/chapter1/coin/</loc>
-         <lastmod>2024-04-07</lastmod>
+         <lastmod>2024-06-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://ackeeblockchain.com/solana-handbook/latest/handbook/chapter1/consensus/</loc>
-         <lastmod>2024-04-07</lastmod>
+         <lastmod>2024-06-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://ackeeblockchain.com/solana-handbook/latest/handbook/chapter1/nodes/</loc>
-         <lastmod>2024-04-07</lastmod>
+         <lastmod>2024-06-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://ackeeblockchain.com/solana-handbook/latest/handbook/chapter1/protocol/</loc>
-         <lastmod>2024-04-07</lastmod>
+         <lastmod>2024-06-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://ackeeblockchain.com/solana-handbook/latest/handbook/chapter1/security/</loc>
-         <lastmod>2024-04-07</lastmod>
+         <lastmod>2024-06-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://ackeeblockchain.com/solana-handbook/latest/handbook/chapter1/smart-contract/</loc>
-         <lastmod>2024-04-07</lastmod>
+         <lastmod>2024-06-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://ackeeblockchain.com/solana-handbook/latest/handbook/chapter1/sybil-resistance/</loc>
-         <lastmod>2024-04-07</lastmod>
+         <lastmod>2024-06-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://ackeeblockchain.com/solana-handbook/latest/handbook/chapter1/transaction/</loc>
-         <lastmod>2024-04-07</lastmod>
+         <lastmod>2024-06-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://ackeeblockchain.com/solana-handbook/latest/handbook/chapter2/comparison-to-ethereum/</loc>
-         <lastmod>2024-04-07</lastmod>
+         <lastmod>2024-06-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://ackeeblockchain.com/solana-handbook/latest/handbook/chapter2/rust-development/</loc>
-         <lastmod>2024-04-07</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://ackeeblockchain.com/solana-handbook/latest/handbook/chapter3/</loc>
-         <lastmod>2024-04-07</lastmod>
+         <lastmod>2024-06-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://ackeeblockchain.com/solana-handbook/latest/handbook/chapter3/archivers/</loc>
-         <lastmod>2024-04-07</lastmod>
+         <lastmod>2024-06-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://ackeeblockchain.com/solana-handbook/latest/handbook/chapter3/cloudbreak/</loc>
-         <lastmod>2024-04-07</lastmod>
+         <lastmod>2024-06-17</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://ackeeblockchain.com/solana-handbook/latest/handbook/chapter3/core-concepts/</loc>
+         <lastmod>2024-06-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://ackeeblockchain.com/solana-handbook/latest/handbook/chapter3/gulf-stream/</loc>
-         <lastmod>2024-04-07</lastmod>
+         <lastmod>2024-06-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://ackeeblockchain.com/solana-handbook/latest/handbook/chapter3/pipelining/</loc>
-         <lastmod>2024-04-07</lastmod>
+         <lastmod>2024-06-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://ackeeblockchain.com/solana-handbook/latest/handbook/chapter3/proof-of-history/</loc>
-         <lastmod>2024-04-07</lastmod>
+         <lastmod>2024-06-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://ackeeblockchain.com/solana-handbook/latest/handbook/chapter3/sealevel/</loc>
-         <lastmod>2024-04-07</lastmod>
+         <lastmod>2024-06-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://ackeeblockchain.com/solana-handbook/latest/handbook/chapter3/tower-bft/</loc>
-         <lastmod>2024-04-07</lastmod>
+         <lastmod>2024-06-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://ackeeblockchain.com/solana-handbook/latest/handbook/chapter3/turbine/</loc>
-         <lastmod>2024-04-07</lastmod>
+         <lastmod>2024-06-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://ackeeblockchain.com/solana-handbook/latest/handbook/chapter4/account-anatomy/</loc>
-         <lastmod>2024-04-07</lastmod>
+         <lastmod>2024-06-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://ackeeblockchain.com/solana-handbook/latest/handbook/chapter4/calling-between-programs/</loc>
-         <lastmod>2024-04-07</lastmod>
+         <lastmod>2024-06-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://ackeeblockchain.com/solana-handbook/latest/handbook/chapter4/communication-with-network/</loc>
-         <lastmod>2024-04-07</lastmod>
+         <lastmod>2024-06-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://ackeeblockchain.com/solana-handbook/latest/handbook/chapter4/overview/</loc>
-         <lastmod>2024-04-07</lastmod>
+         <lastmod>2024-06-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://ackeeblockchain.com/solana-handbook/latest/handbook/chapter4/runtime-policy/</loc>
-         <lastmod>2024-04-07</lastmod>
+         <lastmod>2024-06-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://ackeeblockchain.com/solana-handbook/latest/handbook/chapter4/transaction-anatomy/</loc>
-         <lastmod>2024-04-07</lastmod>
+         <lastmod>2024-06-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://ackeeblockchain.com/solana-handbook/latest/handbook/chapter4/transaction-key-elements/</loc>
-         <lastmod>2024-04-07</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://ackeeblockchain.com/solana-handbook/latest/handbook/chapter5/</loc>
-         <lastmod>2024-04-07</lastmod>
+         <lastmod>2024-06-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://ackeeblockchain.com/solana-handbook/latest/handbook/chapter5/account-compression-program/</loc>
-         <lastmod>2024-04-07</lastmod>
+         <lastmod>2024-06-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://ackeeblockchain.com/solana-handbook/latest/handbook/chapter5/associated-token-acc-program/</loc>
-         <lastmod>2024-04-07</lastmod>
+         <lastmod>2024-06-17</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://ackeeblockchain.com/solana-handbook/latest/handbook/chapter5/solana-program-library/</loc>
+         <lastmod>2024-06-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://ackeeblockchain.com/solana-handbook/latest/handbook/chapter5/token-2022/</loc>
-         <lastmod>2024-04-07</lastmod>
+         <lastmod>2024-06-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://ackeeblockchain.com/solana-handbook/latest/handbook/chapter5/token-program/</loc>
-         <lastmod>2024-04-07</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://ackeeblockchain.com/solana-handbook/latest/handbook/introduction/</loc>
-         <lastmod>2024-04-07</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://ackeeblockchain.com/solana-handbook/latest/revisions/</loc>
-         <lastmod>2024-04-07</lastmod>
+         <lastmod>2024-06-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
