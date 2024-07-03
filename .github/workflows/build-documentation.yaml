@@ -21,9 +21,9 @@ jobs:
       - name: Build documentation
         working-directory: .
         run: |
-          git config --global user.email "solanahandbook@ackeeblockchain.com"
+          git config --global user.email "solanahandbook@ackee.com"
           git config --global user.name "Handbook bot"
-          mike deploy -b documentation latest
+          mkdocs gh-deploy --remote-branch documentation --ignore-version
       - name: Checkout documentation branch
         run: git checkout -f documentation
       - name: Push documentation
