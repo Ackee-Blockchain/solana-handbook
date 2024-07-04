@@ -25,7 +25,7 @@ jobs:
         run: |
           git config --global user.email "solanahandbook@ackee.com"
           git config --global user.name "Handbook bot"
-          mkdocs gh-deploy --remote-branch documentation --ignore-version
+          mike deploy -b documentation latest
       - name: Checkout documentation branch
         run: git checkout -f documentation
       - name: Push documentation
