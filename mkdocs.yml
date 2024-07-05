@@ -5,7 +5,6 @@ repo_name: Ackee-Blockchain/solana-handbook
 site_description: For Experts by Experts
 site_author: Ackee Blockchain
 
-
 nav:
   - Getting started: index.md
   - Chapter 1 - Terminology:
@@ -62,40 +61,41 @@ nav:
       - Executable NFT: handbook/appendixB/executable-nft.md
   - Appendix C - Gaming:
       - Gaming: handbook/appendixC/index.md
+  - About Authors: handbook/authors.md
 
 # Beware this is strongly dependent on names of folders , example:
 # images have to be stored within the docs/images folder
 theme:
   # https://squidfunk.github.io/mkdocs-material/setup/
   name: material
-  logo: 'images/abch-logo.png'
-  favicon: 'images/favicon.ico'
+  logo: "images/abch-logo.png"
+  favicon: "images/favicon.ico"
   custom_dir: overrides
   # https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/?h=palette+sw#color-palette-toggle
   palette:
-  - scheme: default # light mode scheme
-    primary: black
-    toggle:
-      icon: material/lightbulb
-      name: Switch to dark mode
-  - scheme: slate  # dark mode scheme
-    primary: black
-    toggle:
-      icon: material/lightbulb-outline
-      name: Switch to light mode
+    - scheme: default # light mode scheme
+      primary: black
+      toggle:
+        icon: material/lightbulb
+        name: Switch to dark mode
+    - scheme: slate # dark mode scheme
+      primary: black
+      toggle:
+        icon: material/lightbulb-outline
+        name: Switch to light mode
   features:
     # https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/#navigation-expansion
-      - navigation.expand
+    - navigation.expand
     # https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/#back-to-top-button
-      - navigation.top
+    - navigation.top
     # https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/#section-index-pages
-      - navigation.indexes
+    - navigation.indexes
     # https://squidfunk.github.io/mkdocs-material/reference/code-blocks/?h=content+copy#code-copy-button
-      - content.code.copy
+    - content.code.copy
     # https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/#navigation-sections
-      - navigation.sections
+    - navigation.sections
     # may be used
-      # - navigation.footer
+    # - navigation.footer
 
 # https://squidfunk.github.io/mkdocs-material/setup/setting-up-the-footer/?h=social#social-links
 extra:
@@ -119,7 +119,6 @@ plugins:
 # https://squidfunk.github.io/mkdocs-material/customization/?h=extra+css#additional-css
 extra_css:
   - stylesheets/extra.css
-
 
 markdown_extensions:
   # https://squidfunk.github.io/mkdocs-material/reference/code-blocks/#code-blocks
