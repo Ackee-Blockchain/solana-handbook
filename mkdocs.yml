@@ -19,7 +19,7 @@ nav:
       - Security: handbook/chapter1/security.md
       - Smart-Contract: handbook/chapter1/smart-contract.md
   - Chapter 2 - Solana Introduction:
-      - Beginnings: handbook/chapter2/beginnings.md
+      - Solana Introduction: handbook/chapter2/solana-introduction.md
       - Comparison to Ethereum: handbook/chapter2/comparison-to-ethereum.md
       - Rust development: handbook/chapter2/rust-development.md
   - Chapter 3 - Core Concepts:
