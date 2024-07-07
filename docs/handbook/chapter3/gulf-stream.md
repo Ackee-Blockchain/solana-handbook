@@ -8,7 +8,6 @@ This implies a huge communication overhead where every transaction must reach ev
 
 If there are more transactions in the mempool than can fit in the block, the backlog of transactions is created. This can generally lead to increased transaction fees for users who need to push their transaction ahead of other transactions, as it is economically viable for the nodes securing the network to prefer transactions with higher fees. This is currently not possible on Solana, but on the other hand, the network is so fast with its ~400ms block rate that the aim is to process all remaining transactions almost instantaneously anyway.
 
-
 ## The Solution
 
 The solution that Solana devised is to avoid having a single shared mempool and instead push transactions to the edge of the network to the expected leader. The leader receives the transaction as quickly as possible and can process it immediately.
