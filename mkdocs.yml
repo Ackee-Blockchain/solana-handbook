@@ -7,7 +7,7 @@ site_author: Ackee Blockchain
 
 nav:
   - Solana Introduction:
-      - Solana Introduction: handbook/chapter1/introduction.md
+      - handbook/chapter1/index.md
       - Blockchain: handbook/chapter1/blockchain.md
       - Transaction: handbook/chapter1/transaction.md
       - Infrastructure: handbook/chapter1/infrastructure.md
@@ -16,7 +16,7 @@ nav:
       - Smart Contract: handbook/chapter1/smart-contract.md
       - Ecosystem: handbook/chapter1/ecosystem.md
   - Core Concepts:
-      - 8 Core Concepts: handbook/chapter2/core-concepts.md
+      - handbook/chapter2/index.md
       - Proof of History: handbook/chapter2/proof-of-history.md
       - Tower BFT: handbook/chapter2/tower-bft.md
       - Turbine: handbook/chapter2/turbine.md
@@ -26,7 +26,7 @@ nav:
       - Cloudbreak: handbook/chapter2/cloudbreak.md
       - Archivers: handbook/chapter2/archivers.md
   - Programming Model:
-      - Programming Model: handbook/chapter3/programming-model.md
+      - handbook/chapter3/index.md
       - Communication with Network: handbook/chapter3/communication-with-network.md
       - Overview: handbook/chapter3/overview.md
       - Transaction Key Elements: handbook/chapter3/transaction-key-elements.md
@@ -35,13 +35,13 @@ nav:
       - Runtime Policy: handbook/chapter3/runtime-policy.md
       - Calling between Programs: handbook/chapter3/calling-between-programs.md
   - Solana Program Library:
-      - Solana Program Library: handbook/chapter4/solana-program-library.md
+      - handbook/chapter4/index.md
       - Token: handbook/chapter4/token-program.md
       - Associated Token: handbook/chapter4/associated-token-acc-program.md
       - Token 2022: handbook/chapter4/token-2022.md
       - Account Compression: handbook/chapter4/account-compression-program.md
   - Appendices:
-    - Appendices: handbook/appendices/appendices.md
+    - handbook/appendices/index.md
     - Appendix A - Ecosystem:
       - Wallets: handbook/appendices/appendixA/wallets.md
       - Popular Projects: handbook/appendices/appendixA/popular-projects.md
