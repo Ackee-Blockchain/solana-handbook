@@ -1,6 +1,6 @@
 # Solana Program Library
 
-The Solana Program Library (SPL) is a collection of on-chain programs. These programs facilitate tasks like creation and management of tokens and more.
+The **Solana Program Library (SPL)** is a collection of on-chain programs. These programs facilitate tasks like **creation** and **management** of tokens and more.
 
 <br />
 

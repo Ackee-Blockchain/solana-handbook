@@ -8,6 +8,7 @@ site_author: Ackee Blockchain
 nav:
   - Solana Introduction:
       - handbook/chapter1/index.md
+      - Introduction: handbook/chapter1/introduction.md
       - Blockchain: handbook/chapter1/blockchain.md
       - Transaction: handbook/chapter1/transaction.md
       - Infrastructure: handbook/chapter1/infrastructure.md
