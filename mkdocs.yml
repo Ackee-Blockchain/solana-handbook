@@ -65,8 +65,8 @@ nav:
 theme:
   # https://squidfunk.github.io/mkdocs-material/setup/
   name: material
-  logo: "images/abch-new-logo.png"
-  favicon: "images/solana-glass-dark-3.png"
+  logo: "images/solana-handbook-icon.png"
+  favicon: "images/solana-handbook-icon.png"
   custom_dir: overrides
   # https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/?h=palette+sw#color-palette-toggle
   palette:
