@@ -65,21 +65,21 @@ nav:
 theme:
   # https://squidfunk.github.io/mkdocs-material/setup/
   name: material
-  logo: "images/abch-logo.png"
-  favicon: "images/favicon.ico"
+  logo: "images/abch-new-logo.png"
+  favicon: "images/solana-glass-dark-3.png"
   custom_dir: overrides
   # https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/?h=palette+sw#color-palette-toggle
   palette:
-    - scheme: default # light mode scheme
-      primary: black
-      toggle:
-        icon: material/lightbulb
-        name: Switch to dark mode
     - scheme: slate # dark mode scheme
       primary: black
       toggle:
         icon: material/lightbulb-outline
         name: Switch to light mode
+    - scheme: default # light mode scheme
+      primary: black
+      toggle:
+        icon: material/lightbulb
+        name: Switch to dark mode
   features:
     # https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/#navigation-expansion
     - navigation.expand

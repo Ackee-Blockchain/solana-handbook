@@ -110,3 +110,21 @@
     -webkit-mask-image: var(--md-admonition-icon--example);
     mask-image: var(--md-admonition-icon--example);
 }
+
+img {
+    border-radius: 7px;
+}
+
+/*Logo size*/
+.md-header__button.md-logo {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 7;
+    padding-bottom: 7;
+}
+
+.md-header__button.md-logo img,
+.md-header__button.md-logo svg {
+    height: 50px;
+    width: auto;
+}
