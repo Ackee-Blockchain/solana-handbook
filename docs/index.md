@@ -9,11 +9,16 @@ hide:
 
 ## Learn the fundamentals of Solana!
 
+<div markdown style="width: 850px">
 This handbook was written for developers, auditors and anyone interested in how Solana works. Starting with the basics and terminology, it gradually introduces more advanced topics, providing a comprehensive overview without going too in-depth.
+</div>
+
+
 
 **Good luck, and enjoy the journey!**
+<div markdown>
 
-## Contents
+![Solana Logo](./images/solana-glass-dark-3.png){ align=right width=auto height=auto}
 
 <div class="grid cards" markdown>
 
@@ -25,14 +30,6 @@ This handbook was written for developers, auditors and anyone interested in how 
 
     [Solana Basics](./handbook/chapter1/index.md)
 
--   :material-cogs:{ .lg .middle } __Core Concepts__
-
-    ---
-
-    Solana can be described by the eight core concepts that make it unique and fast.
-
-    [Core Concepts](./handbook/chapter2/index.md)
-
 -   :material-code-brackets:{ .lg .middle } __Programming Model__
 
     ---
@@ -40,6 +37,14 @@ This handbook was written for developers, auditors and anyone interested in how 
     Explore Solana's programming model.
 
     [Programming Model](./handbook/chapter3/index.md)
+
+-   :material-cogs:{ .lg .middle } __Core Concepts__
+
+    ---
+
+    Solana can be described by the eight core concepts that make it unique and fast.
+
+    [Core Concepts](./handbook/chapter2/index.md)
 
 -   :material-library:{ .lg .middle } __Solana Program Library__
 
@@ -49,18 +54,20 @@ This handbook was written for developers, auditors and anyone interested in how 
 
     [Solana Program Library](./handbook/chapter4/index.md)
 
--   :material-note-text:{ .lg .middle } __Appendices__
+<!-- -   :material-note-text:{ .lg .middle } __Appendices__
 
     ---
 
     Additional information about Solana's ecosystem.
 
-    [Appendices](./handbook/appendices/index.md)
+    [Appendices](./handbook/appendices/index.md) -->
 
+</div>
 </div>
 
 ## About Authors
 
+<div markdown style="width: 850px">
 This handbook was created with love by Solana Auditors and Developers of Ackee.
 
 Ackee is a blockchain security company founded in 2021, specializing in audits and other security assessments.
@@ -70,4 +77,4 @@ To strengthen the blockchain ecosystem, the team develops open-source frameworks
 - [School of Solana](https://ackee.xyz/school-of-solana)
 - [Solana Auditors Bootcamp](https://ackee.xyz/solana-auditors-bootcamp)
 - [School of Solidity](https://ackee.xyz/school-of-solidity)
-
+</div >
