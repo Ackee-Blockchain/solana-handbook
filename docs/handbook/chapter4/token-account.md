@@ -1,5 +1,7 @@
 A token account on Solana is a general term for any account that holds tokens. Token accounts are created by the Token Program and store different types of tokens. Every account has a unique mint address, and a token account holds tokens of a specific mint account.
 
+![Blockchain](../../images/spl-token.png)
+
 The Token Program is the owner of a token account. However, another account can be specified as the authority with the ability to transfer tokens. This means that while the Token Program manages the structure of the token account, another account controls the movement of tokens.
 
 ## Token Account Structure
@@ -19,7 +21,7 @@ Additional fields:
 - **Delegate**: Delegate authority having possession over delegate amount. (Optional)
 - **IsNative**: Specifies whether the token account holds [wrapped SOL](https://spl.solana.com/token#wrapping-sol). (Optional)
 - **Delegate amount**: Amount authorized by the delegate authority.
-- **Close Authority**: Authority able to close the Token Account. (Optional)
+- **Close authority**: Authority able to close the token account. (Optional)
 
 
 ## Associated Token Account
