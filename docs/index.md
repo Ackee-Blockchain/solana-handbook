@@ -15,7 +15,7 @@ This handbook was written for developers, auditors and anyone interested in how 
 
 
 
-**Good luck, and enjoy the journey!**
+Good luck, and enjoy the journey!
 <div markdown>
 
 ![Solana Logo](./images/solana-glass-dark-3.png){ align=right width=auto height=auto}
