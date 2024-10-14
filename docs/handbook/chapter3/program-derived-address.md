@@ -1,10 +1,8 @@
-## Program Derived Address
-
 Programs can issue instructions that include accounts that were not signed in the original transaction by using **Program Derived Addresses (PDAs)**. These accounts are referred to as PDA accounts. PDAs allow for programmatically generated addresses to be used without needing a private key when invoking instructions of other programs.
 
 PDA is an address deterministically derived from the **program ID** and **supplied seeds** (keywords). However, the resulting address is bumped off the Ed25519 curve with a so-called **bump seeds**. This ensures that no private key exists for the PDA.
 
-## PDA Generation
+<h2>PDA Generation</h2>
 
 When generating a PDA there is approximately 50% chance that the address will fall on the elliptic curve, meaning it has a corresponding private key. To avoid this, system uses bump seeds, an 8-bit number, to "bump" the address off the curve.
 

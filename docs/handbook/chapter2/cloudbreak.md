@@ -1,11 +1,11 @@
-## Memory Bottleneck
+<h2>Memory Bottleneck</h2>
 
 As the speed of computation increases, memory access becomes a new bottleneck. LevelDB is the industry-standard local database for storing blockchain data and state. However, it does not support parallel reads and writes. That is fine for Bitcoin or Ethereum, but not for a massively parallel system like Solana.
 
 The sheer size of the blockchain state makes storing everything in RAM impractical even for large servers. To combat this, Solana had to invent its own database system that supports parallel reads and writes and scales easily with addition of more disks.
 
 
-## Cloudbreak
+<h2>Cloudbreak</h2>
 
 Cloudbreak is Solana's custom database. It makes use of memory-mapped files to store data in a way that allows for independent access to each file.
 

@@ -1,6 +1,6 @@
-## RPC Requests
+<h2>RPC Requests</h2>
 
-Any user who chooses to interact with the network must communicate with one of the network’s nodes through a Remote Procedure Call (RPC) endpoint. The available [RPC methods](https://solana.com/docs/rpc) are listed in the Solana documentation.
+Any user who chooses to interact with the network must communicate with one of the network’s nodes through a **Remote Procedure Call (RPC)** endpoint. The available [RPC methods](https://solana.com/docs/rpc) are listed in the Solana documentation.
 
 The methods vary from simple queries, such as retrieving specific account information, or checking the state of the network, to sending transactions that modify state of the blockchain.
 
@@ -24,11 +24,11 @@ The methods vary from simple queries, such as retrieving specific account inform
 
 !!! info
 
-    While users can interact with the blockchain through RPCs, it is not required. There are several libraries that provide convenient interfaces for languages such as JavaScript, Rust and Python.
+    While users can interact with the blockchain through RPCs, it is not required. There are several libraries that provide convenient interfaces for languages such as **JavaScript**, **Rust** and **Python**.
 
-## Solana CLI
+<h2>Solana CLI</h2>
 
-Typically, you will not be interacting with the network through raw RPC requests. Instead, you will often use a wrapper around them such as the interfaces mentioned above. Solana's Command-Line Interface (CLI) is a powerful tool that provides a more user-friendly experience for interacting with the blockchain.
+Typically, you will not be interacting with the network through raw RPC requests. Instead, you will often use a wrapper around them such as the interfaces mentioned above. **Solana's Command-Line Interface (CLI)** is a powerful tool that provides a more user-friendly experience for interacting with the blockchain.
 
 !!! example
 

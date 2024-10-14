@@ -1,10 +1,10 @@
 There are more types of tokens on Solana besides **fungible** and **non-fungible**. Here are some of the token types that you can come across on Solana.
 
-## Semi-Fungible Tokens
+<h2>Semi-Fungible Tokens</h2>
 
 **Semi-Fungible Token** has attributes of a typical NFT such as image and metadata but its supply is greater than one. These tokens are becoming popular in gaming contexts to support fungible items such as a kind of sword or a piece of wood.
 
-## Programmable NFT
+<h2>Programmable NFT</h2>
 
 Since the [Token Metadata program](./token-metadata-program.md) builds on the [Solana Token program](../../chapter4/token-program.md), tokens (fungible or not) can be transferred without involving the Token Metadata program. Metadata accounts include a **Seller Fee Basis Points** field for royalties, but it’s only informational. This allows marketplaces to bypass royalties, which has happened.
 
@@ -12,7 +12,7 @@ Programmable NFTs were introduced to fix this. They are a new token standard tha
 
 ![Blockchain](../../../images/programmable.png)
 
-## Executable NFT
+<h2>Executable NFT</h2>
 
 Executable NFTs (xNFTs), available in the open source wallet Backpack, represent an entirely new way to build applications. They combine executable websites and applications that can run locally on a user’s computer with a crypto wallet.
 
@@ -23,7 +23,7 @@ xNFTs take a radically practical approach to solving two of web3’s main proble
 
 ![Blockchain](../../../images/xnfts.png)
 
-## Compressed NFT
+<h2>Compressed NFT</h2>
 
 Compressed NFTs use [state compression and Merkle trees](../../chapter4/account-compression-program.md) to drastically reduce the storage cost for NFTs. Instead of storing metadata in a typical Solana account, compressed NFTs store the metadata within the ledger. This allows compressed NFTs to still inherit the security and speed of the Solana blockchain, while at the same time reducing the overall storage costs.
 

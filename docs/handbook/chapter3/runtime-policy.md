@@ -1,5 +1,3 @@
-## Runtime Policy
-
 Runtime policy is a set of rules enforced by the runtime to ensure security of the system:
 
 1. **Account Modification**
@@ -18,6 +16,6 @@ Runtime policy is a set of rules enforced by the runtime to ensure security of t
 
        All instructions are executed atomically. If any instruction fails, the entire transaction fails.
 
-## Compute Budget
+<h2>Compute Budget</h2>
 
 Each transaction is allocated a compute budget to prevent abuse of node resources that could potentially lead to network failures or denial of service. When the program consumes its entire compute budget or exceeds certain bounds, the runtime halts the currently running instructions and returns an error.

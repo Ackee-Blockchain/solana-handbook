@@ -1,6 +1,6 @@
-## Key Elements
+<h2>Key Elements</h2>
 
-!!! important
+???+ important
 
     <dt><b>Signature</b></dt>
     A 64 bytes long digital signature in the ed25519 format that verifies the authenticity and integrity of a transaction.
@@ -20,7 +20,7 @@
     <dt><b>Instruction</b></dt>
     A command that specifies the Program ID to be executed, the accounts involved, and additional data that the program can use to determine the action to be performed.
 
-## Transaction Anatomy
+<h2>Transaction Anatomy</h2>
 
 **Solana transactions consist of two major parts in the following order:**
 
@@ -29,14 +29,14 @@
 
 ![Transaction Anatomy](./../../images/transaction-anatomy.png)
 
-### Signatures
+<h3>Signatures</h3>
 
 **For each signature in the compact array, the Solana verifies two conditions:**
 
 - The number of signatures must match the first 8 bits of the message header.
 - Each signature is validated against the corresponding public key at the same index in the account addresses array.
 
-### Message Layout
+<h3>Message Layout</h3>
 
 ![Message Layout](./../../images/message-layout.png)
 

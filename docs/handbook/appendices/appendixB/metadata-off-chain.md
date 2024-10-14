@@ -1,16 +1,14 @@
-# Storing Metadata Off-chain
-
 One important attribute of the [metadata account](./token-metadata-program.md) is the **URI** attribute that points to a JSON file off-chain. This is used to safely provide additional data whilst not being constrained by the fees involved in storing on-chain data. That JSON file follows a certain standard that anyone can use to find useful information on tokens.
 
 !!! note
 
     The JSON file can be stored using a permanent storage solution such as [Arweave](https://www.arweave.org/) to ensure it cannot be updated. Additionally, one can use the **Is Mutable** attribute of the metadata account to make it immutable.
 
-## Arweave
+<h2>Arweave</h2>
 
 Arweave is a **decentralized**, **trust-minimized**, **censorship-resistant** data storage network designed to retain data permanently, making it a great fit for NFTs. To cover the cost of storing your media forever, storage and mining fees are paid at the time of upload and distributed to storage providers participating in the network.
 
-### Storage Fees
+<h3>Storage Fees</h3>
 
 Storage fees are based on the total size of the files you upload to the network during NFT creation. Each NFT consists of three files:
 

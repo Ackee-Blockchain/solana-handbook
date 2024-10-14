@@ -1,5 +1,3 @@
-## Proof of History
-
 Achieving agreement on time in distributed systems has always been problematic. Solana uses a timekeeping protocol called **Proof of History (PoH)** to synchronize local virtual clocks on all nodes. PoH ensures that the timestamp in any message can be trusted and that any timeouts in the consensus protocol can be avoided because every node knows the current time and when to begin a new consensus round.
 
 !!! important
@@ -16,7 +14,7 @@ To prevent validators from skipping their predecessors, PoH is used to force all
 
     Proof of History is **neither** a consensus mechanism **nor** a Sybil resistance mechanism!
 
-## Verifiable Delay Function
+<h2>Verifiable Delay Function</h2>
 
 PoH is based on a **Verifiable Delay Function (VDF)**. Solana uses a recursive, pre-image-resistant SHA-256 VDF, where the output of one SHA-256 iteration is recursively used as the input for the next.
 
@@ -32,7 +30,7 @@ Hash<sub>n-1</sub> + Message<sub>n</sub> → Hash<sub>n</sub></code></pre>
 
     Using PoH, we are able establish the exact order of messages because we can prove that **Message<sub>n</sub>** occured after **Message<sub>n-1</sub>** and before **Message<sub>n+1</sub>**.
 
-## Phases of PoH
+<h2>Phases of PoH</h2>
 
 - **Evaluation phase (leader):**
 

@@ -1,4 +1,4 @@
-The Token-2022 Program extends the functionality provided by the Token Program. This means that the Token-2022 program is not only backward compatible but also includes all the functions of the original Token program, as well as additional functionality often referred to as token extensions.
+The Token-2022 program extends the functionality provided by the [Token program](./token-program.md). This means that the Token-2022 program is not only backward compatible but also includes all the functions of the original Token program, as well as additional functionality often referred to as token extensions.
 
 !!! info
 
@@ -6,9 +6,9 @@ The Token-2022 Program extends the functionality provided by the Token Program. 
 
 !!! tip
 
-    To see the source code, check out [Solana Program Library Token-2022 Program](https://github.com/solana-labs/solana-program-library/tree/master/token/program-2022).
+    To see the source code, check out [Solana Program Library Token-2022 program](https://github.com/solana-labs/solana-program-library/tree/master/token/program-2022).
 
-## Benefits
+<h2>Benefits</h2>
 
 - **Flexibility**
 
@@ -27,7 +27,7 @@ The Token-2022 Program extends the functionality provided by the Token Program. 
     Extensions are uniform and reusable, which significantly speeds up development.
 
 
-## Extensions
+<h2>Extensions</h2>
 
 There are two types of extensions:
 
@@ -36,7 +36,7 @@ There are two types of extensions:
 
 !!! note
 
-    - **Mint extensions** are added on top of the original Solana Token Program and extend the capabilities of tokens.
+    - **Mint extensions** are added on top of the original Solana Token program and extend the capabilities of tokens.
     - **Token account extensions** are added on top of Solana accounts and add account-related features.
 
 Mint extensions:

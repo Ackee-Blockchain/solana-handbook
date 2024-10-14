@@ -72,9 +72,8 @@ This handbook was created with love by Solana Auditors and Developers of Ackee.
 
 Ackee is a blockchain security company founded in 2021, specializing in audits and other security assessments.
 
-To strengthen the blockchain ecosystem, the team develops open-source frameworks [Wake](https://ackee.xyz/wake/docs/latest/) and [Trident](https://ackee.xyz/trident/docs/latest/). Additionally, they share their knowledge through free certification courses:
+To strengthen the blockchain ecosystem, the team develops an open-source framework [Trident](https://ackee.xyz/trident/docs/latest/). Additionally, they share their knowledge through free certification courses:
 
 - [School of Solana](https://ackee.xyz/school-of-solana)
 - [Solana Auditors Bootcamp](https://ackee.xyz/solana-auditors-bootcamp)
-- [School of Solidity](https://ackee.xyz/school-of-solidity)
 </div >

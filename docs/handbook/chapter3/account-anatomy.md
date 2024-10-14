@@ -1,4 +1,4 @@
-## Everything is an Account
+<h2>Everything is an Account</h2>
 
 Just as in UNIX, where "everything is a file", in Solana "everything is an account". In other words, an account is a memory buffer that functions similarly to a file in a file system. The main purpose of an account is to store state between instructions and transactions. Each account is identified by an address (a public key) and Solana’s account system can therefore be viewed as  key-value database.
 
@@ -9,7 +9,7 @@ Just as in UNIX, where "everything is a file", in Solana "everything is an accou
     - An ed25519 public key.
     - A [program derived address (PDA)](./program-derived-address.md).
 
-## Account Anatomy
+<h2>Account Anatomy</h2>
 
 ![Account Layout](./../../images/account-layout.png)
 
@@ -58,10 +58,10 @@ Just as in UNIX, where "everything is a file", in Solana "everything is an accou
   - An account is considered rent-exempt if it holds at least two years’ worth of rent.
   - Every epoch runtime checks whether the account should pay rent or is rent-exempt.
 
-## Account Types
+<h2>Account Types</h2>
 
 There are 3 types of Solana accounts:
 
-1. **Data accounts** - These accounts serve as containers for storing and retrieving data.
-2. **Program accounts** - These accounts store user-deployed executable bytecode.
-3. **Native accounts** - These accounts hold Solana's built-in programs such as the System program, the BPF Loader, and others.
+1. **Data accounts**: These accounts serve as containers for storing and retrieving data.
+2. **Program accounts**: These accounts store user-deployed executable bytecode.
+3. **Native accounts**: These accounts hold Solana's built-in programs such as the System program, the BPF Loader, and others.

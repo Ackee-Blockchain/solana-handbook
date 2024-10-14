@@ -1,10 +1,10 @@
-A token account on Solana is a general term for any account that holds tokens. Token accounts are created by the Token Program and store different types of tokens. Every account has a unique mint address, and a token account holds tokens of a specific mint account.
+A token account on Solana is a general term for any account that holds tokens. Token accounts are created by the [Token program](./token-program.md) and store different types of tokens. Every account has a unique mint address, and a token account holds tokens of a specific mint account.
 
 ![Blockchain](../../images/spl-token.png)
 
-The Token Program is the owner of a token account. However, another account can be specified as the authority with the ability to transfer tokens. This means that while the Token Program manages the structure of the token account, another account controls the movement of tokens.
+The Token program is the owner of a token account. However, another account can be specified as the authority with the ability to transfer tokens. This means that while the Token program manages the structure of the token account, another account controls the movement of tokens.
 
-## Token Account Structure
+<h2>Token Account Structure</h2>
 
 The structure of a token account resembles that of a regular account. It holds **lamports**, has an **executable** flag (set to false), **owner** (Token Program) and stores additional **data**.
 
@@ -24,7 +24,7 @@ Additional fields:
 - **Close authority**: Authority able to close the token account. (Optional)
 
 
-## Associated Token Account
+<h2>Associated Token Account</h2>
 
 An Associated Token Account (ATA) is a token account, but its address has a special property.
 
@@ -38,4 +38,4 @@ This means that user has a different ATA for every wallet and token mint combina
 
     A user can receive tokens even if they do not yet have a token account for that mint. The **sender is able to fund the creation of the receiver's ATA**, enabling things like airdrop campaigns.
 
-[Associated Token Account Program](https://spl.solana.com/associated-token-account) facilitates the creation and management of ATAs.
+[Associated Token Account program](https://spl.solana.com/associated-token-account) facilitates the creation and management of ATAs.
