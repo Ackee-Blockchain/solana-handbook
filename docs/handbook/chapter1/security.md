@@ -1,8 +1,3 @@
----
-hide:
-  - toc
----
-
 ## Sybil Resistance
 
 To prevent a single entity from taking over the network, there must be a mechanism put in place so that no one can just spawn more nodes that can mine or vote (depending on the network) and thus subvert the network reputation system. These dishonest nodes would be able to out-vote honest nodes and start censoring transactions, approving invalid transactions, or changing the entire protocol.

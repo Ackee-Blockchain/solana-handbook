@@ -1,8 +1,3 @@
----
-hide:
-  - toc
----
-
 ## Slots
 
 A slot is a **400 milliseconds** long time interval, during which a specific validator, known as the leader, is given a chance to propose a new block. This block contains transactions that are ready to be processed within the network. After the block is proposed, other validators review and confirm its validity.
