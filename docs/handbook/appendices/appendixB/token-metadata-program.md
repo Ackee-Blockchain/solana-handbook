@@ -1,3 +1,8 @@
+---
+hide:
+  - toc
+---
+
 The **Token Metadata program** is one of the most important programs when working with NFTs. Its main goal is to attach additional data to fungible or non-fungible tokens on Solana.
 
 It achieves this using [PDAs](../../chapter3/program-derived-address.md) that are derived from the address of [mint accounts](../../chapter4/mint-account.md).

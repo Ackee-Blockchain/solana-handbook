@@ -1,3 +1,8 @@
+---
+hide:
+  - toc
+---
+
 It is not enough to be able to form a consensus and share a block with the rest of the network quickly. A node must validate and execute all those transactions in received blocks before another block comes. To address this, the Solana team developed the **Transaction Processing Unit (TPU)**. The TPU works as a processor and extensively uses pipelining.
 
 !!! insight

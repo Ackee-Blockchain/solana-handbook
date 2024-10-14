@@ -1,3 +1,8 @@
+---
+hide:
+  - toc
+---
+
 The mint account represents a specific type of token by storing the token's global metadata. The mint account contains these data fields:
 
 - **Supply**: Total supply of the token.

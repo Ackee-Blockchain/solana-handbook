@@ -1,3 +1,8 @@
+---
+hide:
+  - toc
+---
+
 Sealevel is a runtime developed by the Solana team that allows for the parallel processing of smart contracts. It can process as many transactions as many cores are available in the system. This is a major improvement, making Solana a multi-threaded global state machine.
 
 !!! important

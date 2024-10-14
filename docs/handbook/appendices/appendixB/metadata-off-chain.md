@@ -1,3 +1,8 @@
+---
+hide:
+  - toc
+---
+
 One important attribute of the [metadata account](./token-metadata-program.md) is the **URI** attribute that points to a JSON file off-chain. This is used to safely provide additional data whilst not being constrained by the fees involved in storing on-chain data. That JSON file follows a certain standard that anyone can use to find useful information on tokens.
 
 !!! note

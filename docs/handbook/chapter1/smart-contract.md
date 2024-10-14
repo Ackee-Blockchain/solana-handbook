@@ -1,3 +1,8 @@
+---
+hide:
+  - toc
+---
+
 A smart contract is a piece of code deployed on a blockchain with a cryptographically signed transaction. Users can then interact with it by sending transactions that invoke a specific function defined in the smart contract and the business logic is executed as stated in the deployed code.
 
 Data relevant to the smart contract state are also stored on the blockchain. Hence we can look at smart contracts as programs on a decentralized computer that access files in its file system and modify them according to the predefined rules. If such a contract is made immutable, we can trust that the smart contract will do nothing other than what it is supposed to do.

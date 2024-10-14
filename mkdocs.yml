@@ -47,11 +47,11 @@ nav:
     - Ecosystem:
       - Popular Projects: handbook/appendices/appendixA/popular-projects.md
     - NFTs:
+      - Metaplex: handbook/appendices/appendixB/metaplex.md
       - Non-Fungible Tokens: handbook/appendices/appendixB/non-fungible-tokens.md
       - Token Metadata Program: handbook/appendices/appendixB/token-metadata-program.md
       - Storing Metadata Off-chain: handbook/appendices/appendixB/metadata-off-chain.md
       - Token Types: handbook/appendices/appendixB/token-types.md
-      - Metaplex: handbook/appendices/appendixB/metaplex.md
 
 # Beware this is strongly dependent on names of folders , example:
 # images have to be stored within the docs/images folder

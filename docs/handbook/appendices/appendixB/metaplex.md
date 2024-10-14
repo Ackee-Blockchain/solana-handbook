@@ -1,3 +1,8 @@
+---
+hide:
+  - toc
+---
+
 **Metaplex** is a decentralized protocol built on the Solana blockchain designed to simplify the creation, sale, and use of [NFTs](./non-fungible-tokens.md). By offering a suite of development tools, smart contracts, and open standards, Metaplex enables NFT communities to issue, manage, and own digital assets on-chain.
 
 Metaplex continuously develops and maintains several programs and standards to enhance user experience and meet the evolving needs of its community.

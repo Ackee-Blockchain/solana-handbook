@@ -1,3 +1,8 @@
+---
+hide:
+  - toc
+---
+
 # Solana Introduction
 
 Learn what **Solana** is and understand basic blockchain terminology, from **blocks** to **smart contracts**.

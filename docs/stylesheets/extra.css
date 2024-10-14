@@ -15,6 +15,24 @@
     filter: invert(1) hue-rotate(90deg);
 }
 
+[data-md-color-scheme="default"] {
+    --md-typeset-a-color: #6d63ec !important;
+    --md-typeset-a-color--hover: #6d63ec !important;
+}
+
+[data-md-color-scheme="slate"] {
+    --md-typeset-a-color: #6d63ec !important;
+    --md-typeset-a-color--hover: #6d63ec !important;
+}
+
+.md-tabs__link {
+    font-weight: 900 !important;
+}
+
+.md-tabs__link--active {
+    font-weight: bold !important;
+}
+
 .md-typeset h1 {
     font-weight: 900;
     font-size: 1.25cm;
@@ -24,7 +42,7 @@
 .md-typeset h2,
 .md-typeset h3,
 .md-typeset h4 {
-    color: rgb(91, 130, 219);
+    color: #6d63ec;
 }
 
 .md-typeset h2,

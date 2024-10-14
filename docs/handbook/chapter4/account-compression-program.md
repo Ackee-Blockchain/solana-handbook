@@ -1,3 +1,8 @@
+---
+hide:
+  - toc
+---
+
 <h2>Merkle Tree</h2>
 
 A Merkle tree is a data structure that organizes data into a tree-like form.

@@ -1,3 +1,8 @@
+---
+hide:
+  - toc
+---
+
 <h2>Tower Byzantine Fault Tolerance</h2>
 
 Solana uses **Tower Byzantine Fault Tolerance (TBFT)** as its consensus algorithm, which is a custom implementation of the Practical Byzantine Fault Tolerance (PBFT) algorithm published in 1999 by Miguel Castro and Barbara Liskov.

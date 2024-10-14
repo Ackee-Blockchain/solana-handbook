@@ -1,3 +1,8 @@
+---
+hide:
+  - toc
+---
+
 The Solana blockchain can grow at enormous speed, making it very challenging for each node to store the complete history of transactions. To address this, there is a concept of **distributed ledger storage** that would store this data in a decentralized fashion for everyone else.
 
 !!! insight

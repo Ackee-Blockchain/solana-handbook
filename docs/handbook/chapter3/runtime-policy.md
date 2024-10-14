@@ -1,3 +1,8 @@
+---
+hide:
+  - toc
+---
+
 Runtime policy is a set of rules enforced by the runtime to ensure security of the system:
 
 1. **Account Modification**

@@ -1,3 +1,8 @@
+---
+hide:
+  - toc
+---
+
 <h2>Everything is an Account</h2>
 
 Just as in UNIX, where "everything is a file", in Solana "everything is an account". In other words, an account is a memory buffer that functions similarly to a file in a file system. The main purpose of an account is to store state between instructions and transactions. Each account is identified by an address (a public key) and Solana’s account system can therefore be viewed as  key-value database.

@@ -1,3 +1,8 @@
+---
+hide:
+  - toc
+---
+
 Achieving agreement on time in distributed systems has always been problematic. Solana uses a timekeeping protocol called **Proof of History (PoH)** to synchronize local virtual clocks on all nodes. PoH ensures that the timestamp in any message can be trusted and that any timeouts in the consensus protocol can be avoided because every node knows the current time and when to begin a new consensus round.
 
 !!! important

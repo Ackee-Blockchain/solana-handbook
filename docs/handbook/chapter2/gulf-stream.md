@@ -1,3 +1,8 @@
+---
+hide:
+  - toc
+---
+
 <h2>Mempool</h2>
 
 In traditional blockchains, each node reserves a part of its memory for the memory pool, more commonly known as mempool. The mempool is used to store transactions that are currently being broadcasted over the network but have not yet been added to a block.

@@ -1,3 +1,8 @@
+---
+hide:
+  - toc
+---
+
 A token account on Solana is a general term for any account that holds tokens. Token accounts are created by the [Token program](./token-program.md) and store different types of tokens. Every account has a unique mint address, and a token account holds tokens of a specific mint account.
 
 ![Blockchain](../../images/spl-token.png)

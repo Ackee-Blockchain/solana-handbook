@@ -1,3 +1,8 @@
+---
+hide:
+  - toc
+---
+
 Solana's blockchain has become a fertile ground for innovation. Here is a list of project types that you can find, but keep in mind, this is just the tip of the iceberg. There are many more applications thriving on the Solana platform, helping the ecosystem grow and evolve.
 
 <h2>Decentralized Exchanges</h2>
