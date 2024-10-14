@@ -1,3 +1,8 @@
+---
+hide:
+  - toc
+---
+
 <h2>Nodes</h2>
 
 Node is a single participant in a network. The nodes communicate with each other according to the protocol and in a [peer-to-peer](https://en.wikipedia.org/wiki/Peer-to-peer) manner forming the whole blockchain network.

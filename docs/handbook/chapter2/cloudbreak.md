@@ -1,3 +1,8 @@
+---
+hide:
+  - toc
+---
+
 <h2>Memory Bottleneck</h2>
 
 As the speed of computation increases, memory access becomes a new bottleneck. LevelDB is the industry-standard local database for storing blockchain data and state. However, it does not support parallel reads and writes. That is fine for Bitcoin or Ethereum, but not for a massively parallel system like Solana.

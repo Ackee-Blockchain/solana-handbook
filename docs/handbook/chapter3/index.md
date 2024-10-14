@@ -1,3 +1,8 @@
+---
+hide:
+  - toc
+---
+
 # Programming Model
 
 Learn how to interact with the network and dive into concepts like **transactions**, **accounts**, and **runtime policy** that define how programs operate on Solana.

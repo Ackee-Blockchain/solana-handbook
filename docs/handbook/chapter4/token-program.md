@@ -1,3 +1,8 @@
+---
+hide:
+  - toc
+---
+
 <h2>Fungible and Non-Fungible Tokens</h2>
 
 **Fungible Tokens:** These tokens are interchangeable with one another. They are indistinguishable and hold the same value.

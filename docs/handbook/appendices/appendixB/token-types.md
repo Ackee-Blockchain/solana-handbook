@@ -1,3 +1,8 @@
+---
+hide:
+  - toc
+---
+
 There are more types of tokens on Solana besides **fungible** and **non-fungible**. Here are some of the token types that you can come across on Solana.
 
 <h2>Semi-Fungible Tokens</h2>

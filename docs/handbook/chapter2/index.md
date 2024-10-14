@@ -1,3 +1,8 @@
+---
+hide:
+  - toc
+---
+
 # Core Concepts
 
 Learn the key features that make Solana so **fast**, **efficient** and **scalable**. These eight core concepts are what makes Solana stand out from other blockchains!

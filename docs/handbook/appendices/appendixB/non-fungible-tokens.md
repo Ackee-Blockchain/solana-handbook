@@ -1,3 +1,8 @@
+---
+hide:
+  - toc
+---
+
 **Non-Fungible Tokens (NFTs)** on Solana are represented by [mint accounts](../../chapter4/mint-account.md) with the following characteristics:
 
 - It has a **supply of 1**, meaning only one token is in circulation.

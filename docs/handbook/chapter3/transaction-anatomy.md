@@ -1,3 +1,8 @@
+---
+hide:
+  - toc
+---
+
 <h2>Key Elements</h2>
 
 ???+ important

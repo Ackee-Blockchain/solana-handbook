@@ -1,3 +1,8 @@
+---
+hide:
+  - toc
+---
+
 A **Cross Program Invocation (CPI)** is a mechanism that allows Solana programs to call other programs from within an instruction. The caller is halted until execution returns from the callee.
 
 Programs can extend their signer privileges to other programs using CPIs. CPIs are executed by calling either **invoke** or **invoke_signed** methods within their instructions:

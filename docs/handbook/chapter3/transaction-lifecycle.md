@@ -1,3 +1,8 @@
+---
+hide:
+  - toc
+---
+
 The following steps can be thought of as an overview of what happens when an app or any user interacts with the Solana network by sending a transaction.
 
 1. The user or app submits a transaction with one or more instructions to a node that accepts [RPC requests](./interacting-with-the-network.md).

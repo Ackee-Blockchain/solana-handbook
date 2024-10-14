@@ -1,3 +1,8 @@
+---
+hide:
+  - toc
+---
+
 <h2>RPC Requests</h2>
 
 Any user who chooses to interact with the network must communicate with one of the network’s nodes through a **Remote Procedure Call (RPC)** endpoint. The available [RPC methods](https://solana.com/docs/rpc) are listed in the Solana documentation.

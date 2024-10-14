@@ -1,3 +1,8 @@
+---
+hide:
+  - toc
+---
+
 Turbine is a block propagation protocol designed to reduce both time needed for block propagation as well as the overall message complexity, reducing the communication overhead of a node.
 
 Nodes in the network are divided into small partitions called **neighborhoods**. Nodes within a particular neighborhood are responsible for sharing received data with other nodes in the same neighborhood and propagating the data to a small number of nodes in other neighborhoods.

@@ -1,3 +1,8 @@
+---
+hide:
+  - toc
+---
+
 # Appendices
 
 Discover **additional resources** and **information** about various aspects of **Solana**.
