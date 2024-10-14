@@ -9,22 +9,19 @@ To prevent a single entity from taking over the network, there must be a mechani
 
 Currently, the two most common Sybil resistance mechanisms are:
 
-- Proof-of-Work
-- Proof-of-Stake
+- **Proof-of-Work (PoW)** employs a model where miners in the network are given a chance to mine a block that is proportional to their hashing power in the network. Miners basically compete with each other which makes PoW-based networks very energy-inefficient. Bitcoin uses PoW mechanism.
 
- **Proof-of-Work** (PoW) employs a model where miners in the network are given a chance to mine a block that is proportional to their hashing power in the network. Miners basically compete with each other which makes PoW-based networks very energy-inefficient. Bitcoin uses PoW mechanism.
-
- **Proof-of-Stake** (PoS) is a type of model for voting-based networks, where a validator is given the power of their vote proportionally to staked coins. In each round one validator is randomly chosen to propose a new block, while others validate it. By eliminating competition among validators, PoS-based networks are significantly more energy-efficient.
+- **Proof-of-Stake (PoS)** is a type of model for voting-based networks, where a validator is given the power of their vote proportionally to staked coins. In each round one validator is randomly chosen to propose a new block, while others validate it. By eliminating competition among validators, PoS-based networks are significantly more energy-efficient.
 
 ## Consensus
 
-To agree on a certain state of a blockchain, network nodes need to reach a consensus. We assume there are malicious nodes in the network. Therefore, the system must be able to withstand not only simple node failures but also attacks to a certain extent. BFT ([Byzantine Fault Tolerance](https://en.wikipedia.org/wiki/Byzantine_fault)) is thus a desired property of such a distributed system.
+To agree on a certain state of a blockchain, network nodes need to reach a consensus. We assume there are malicious nodes in the network. Therefore, the system must be able to withstand not only simple node failures but also attacks to a certain extent. [Byzantine Fault Tolerance (BFT)](https://en.wikipedia.org/wiki/Byzantine_fault) is thus a desired property of such a distributed system.
 
 There are three widely used consensus families:
 
-1. **PBFT-like (Practical BFT) algorithm family**: Nodes achieve consensus through a series of voting rounds which ensures that the network can function properly even if some nodes are malicious or fail.
-2. **Nakamoto consensus**: This family combines Proof-of-Work with the longest-chain rule. It was invented by Satoshi Nakamoto in 2008.
-3. **Avalanche Consensus**: A new family introduced in 2018. It is a method where network is quickly able to reach consensus by having nodes communicate with small groups of other nodes.
+- **PBFT-like (Practical BFT) algorithm family**: Nodes achieve consensus through a series of voting rounds which ensures that the network can function properly even if some nodes are malicious or fail.
+- **Nakamoto consensus**: This family combines Proof-of-Work with the longest-chain rule. It was invented by Satoshi Nakamoto in 2008.
+- **Avalanche Consensus**: A new family introduced in 2018. It is a method where network is quickly able to reach consensus by having nodes communicate with small groups of other nodes.
 
 ## Security
 

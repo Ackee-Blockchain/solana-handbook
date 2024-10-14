@@ -5,7 +5,7 @@ hide:
 
 ## Beyond Currency
 
-While many people associate Solana primarily with its native cryptocurrency SOL, it is important to understand that Solana is far more than just a digital currency. Solana is a high-performance blockchain network and an ecosystem that supports a wide array of dApps and use cases. Its architecture is designed for scalability, offering high throughput of up to **65,000 transactions per second**, cheap fees and lightning-fast confirmations, making it suitable for demanding applications like decentralized finance (DeFi), non-fungible tokens (NFTs), gaming, and more.
+While many people associate Solana primarily with its native cryptocurrency SOL, it is important to understand that Solana is far more than just a digital currency. Solana is a high-performance blockchain network and an ecosystem that supports a wide array of dApps and use cases. Its architecture is designed for scalability, offering high throughput of up to **65,000 transactions per second**, cheap fees and lightning-fast confirmations, making it suitable for demanding applications like decentralized finance (DeFi), [non-fungible tokens (NFTs)](../appendices/appendixB/non-fungible-tokens.md), gaming, and more.
 
 ## Decentralized Supercomputer
 

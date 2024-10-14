@@ -30,14 +30,6 @@ Good luck, and enjoy the journey!
 
     [Solana Basics](./handbook/chapter1/index.md)
 
--   :material-code-brackets:{ .lg .middle } __Programming Model__
-
-    ---
-
-    Explore Solana's programming model.
-
-    [Programming Model](./handbook/chapter3/index.md)
-
 -   :material-cogs:{ .lg .middle } __Core Concepts__
 
     ---
@@ -45,6 +37,14 @@ Good luck, and enjoy the journey!
     Solana can be described by the eight core concepts that make it unique and fast.
 
     [Core Concepts](./handbook/chapter2/index.md)
+
+-   :material-code-brackets:{ .lg .middle } __Programming Model__
+
+    ---
+
+    Explore Solana's programming model.
+
+    [Programming Model](./handbook/chapter3/index.md)
 
 -   :material-library:{ .lg .middle } __Solana Program Library__
 
