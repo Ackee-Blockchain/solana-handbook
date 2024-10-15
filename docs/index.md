@@ -7,18 +7,14 @@ hide:
 
 <h1 style="font-size: 60px;">Solana Handbook</h1>
 
+![Solana](./images/solana-glass-dark-3.png){ align=right}
+
 ## Learn the fundamentals of Solana!
 
-<div markdown style="width: 850px">
 This handbook was written for developers, auditors and anyone interested in how Solana works. Starting with the basics and terminology, it gradually introduces more advanced topics, providing a comprehensive overview without going too in-depth.
-</div>
-
-
 
 Good luck, and enjoy the journey!
 <div markdown>
-
-![Solana Logo](./images/solana-glass-dark-3.png){ align=right width=auto height=auto}
 
 <div class="grid cards" markdown>
 
