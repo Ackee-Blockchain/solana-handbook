@@ -8,6 +8,10 @@ hide:
 
 <h1 style="font-size: 60px;">Solana Handbook</h1>
 
+<div class="mobile-image">
+    <img src="./images/solana-glass-dark-3.png" alt="Solana">
+</div>
+
 <div markdown class="text-box">
 ## Learn the fundamentals of Solana!
 

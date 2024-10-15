@@ -166,9 +166,13 @@ img {
     /* Space between the columns */
 }
 
-  .text-box {
-    width: 60%;
-  }
+.text-box {
+width: 60%;
+}
+
+.mobile-image {
+    display: none;
+}
 
 @media (max-width: 1130px) {
     .grid-container {
@@ -193,5 +197,16 @@ img {
 
     .text-box {
         width: 100%;
+    }
+}
+
+@media (max-width: 650px) {
+    .mobile-image {
+        display: flex;
+        justify-content: center;
+    }
+
+    .mobile-image img {
+        height: 100%;
     }
 }
