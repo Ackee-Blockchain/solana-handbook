@@ -28,7 +28,7 @@
 
 ## Document Revision
 
-The Solana Handbook by Ackee was first published on Jun 15, 2022. It is created and mainted with love by Ackee.
+The [Solana Handbook](https://ackee.xyz/solana/book/) by Ackee was first published on Jun 15, 2022. It is created and mainted with love by Ackee.
 
 | Version | Description                                                                                 | Date            |
 |---------|---------------------------------------------------------------------------------------------|-----------------|
@@ -37,6 +37,7 @@ The Solana Handbook by Ackee was first published on Jun 15, 2022. It is created 
 | 1.2     | Renaming and change of content in Chapter 2                                                 | Sep 27, 2022    |
 | 1.3     | Formatting and updated chapters Ecosystem, Gaming, Non-Fungible-Tokens and SPL               | Aug 29, 2023    |
 | 1.4     | Token 2022 and token extensions                                                             | March 22, 2024  |
+| 1.5    | Moving from pdf to docs                                                             | October 15, 2024  |
 
 <br />
 
