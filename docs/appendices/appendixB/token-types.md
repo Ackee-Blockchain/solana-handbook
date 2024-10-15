@@ -15,7 +15,7 @@ Since the [Token Metadata program](./token-metadata-program.md) builds on the [S
 
 Programmable NFTs were introduced to fix this. They are a new token standard that keeps token accounts frozen, ensuring transfers go through the Token Metadata program. Creators can define custom authorization rules in a **RuleSet** account, such as enforcing royalties. These **RuleSets** are part of the [Token Auth Rules program](https://developers.metaplex.com/token-auth-rules).
 
-![Blockchain](../../../images/programmable.png)
+![Blockchain](../../images/programmable.png)
 
 <h2>Executable NFT</h2>
 
@@ -26,7 +26,7 @@ xNFTs take a radically practical approach to solving two of web3’s main proble
 
     Executable NFTs can bring a new level of interactivity to traditional collections. The first xNFT Collection, [Mad Lads](https://www.madlads.com/), showcases the power of an executable profile picture collection — the pictures themselves act as a chatroom for users which is rendered entirely within the NFT. The possibilities are almost limitless.
 
-![Blockchain](../../../images/xnfts.png)
+![Blockchain](../../images/xnfts.png)
 
 <h2>Compressed NFT</h2>
 

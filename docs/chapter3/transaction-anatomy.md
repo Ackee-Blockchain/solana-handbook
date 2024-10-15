@@ -32,7 +32,7 @@ hide:
 - A compact array of signatures.
 - A message that contains a compact array of account addresses, a recent blockhash and a compact array of instructions.
 
-![Transaction Anatomy](./../../images/transaction-anatomy.png)
+![Transaction Anatomy](../images/transaction-anatomy.png)
 
 <h3>Signatures</h3>
 
@@ -43,7 +43,7 @@ hide:
 
 <h3>Message Layout</h3>
 
-![Message Layout](./../../images/message-layout.png)
+![Message Layout](../images/message-layout.png)
 
 **1. Header**
 
@@ -74,4 +74,4 @@ hide:
   - Compact-array of account address indices.
   - Compact-array of opaque 8-bit data (what operations to perform and any additional data).
 
-![Instruction Anatomy](./../../images/instruction-anatomy.png)
+![Instruction Anatomy](../images/instruction-anatomy.png)

@@ -10,4 +10,4 @@ hide:
 - It has **no mint authority**, meaning no one can ever mint additional tokens.
 
 
-![Blockchain](../../../images/mint-with-nft.png)
+![Blockchain](../../images/mint-with-nft.png)

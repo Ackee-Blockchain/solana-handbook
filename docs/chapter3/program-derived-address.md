@@ -11,7 +11,7 @@ PDA is an address deterministically derived from the **program ID** and **suppli
 
 When generating a PDA there is approximately 50% chance that the address will fall on the elliptic curve, meaning it has a corresponding private key. To avoid this, system uses bump seeds, an 8-bit number, to "bump" the address off the curve.
 
-![PDA Generation](../../images/pda-generation.png)
+![PDA Generation](../images/pda-generation.png)
 
 !!! insight
 

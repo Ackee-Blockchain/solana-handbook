@@ -27,4 +27,4 @@ Here are some of its features:
 - Restrict **minting to specific NFT/Token holders** or to a **curated list of wallets**.
 - Create **multiple minting groups** with **different sets of rules**.
 
-![Blockchain](../../../images/candy-machine.png)
+![Blockchain](../../images/candy-machine.png)

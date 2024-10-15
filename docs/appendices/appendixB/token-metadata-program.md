@@ -15,7 +15,7 @@ It achieves this using [PDAs](../../chapter3/program-derived-address.md) that ar
 
 Whilst mint accounts contain a few data attributes such as its current supply, they cannot hold standardized data that can be understood by apps and marketplaces. This is why the Token Metadata program offers a metadata account that attaches itself to a mint account via a PDA.
 
-![Blockchain](../../../images/metaplex-metadata-account.png)
+![Blockchain](../../images/metaplex-metadata-account.png)
 
 <h2>Master Edition</h2>
 
@@ -27,4 +27,4 @@ Additionally, the Token Metadata program offers another account specifically for
 
 The Master Edition account includes some additional fields that are not crucial for the main idea. In essence, [Metaplex](./metaplex.md) offers the capability to create copy of NFTs, with the Master Edition account serving as proof of whether an NFT is original or a copy.
 
-![Blockchain](../../../images/master-edition.png)
+![Blockchain](../../images/master-edition.png)

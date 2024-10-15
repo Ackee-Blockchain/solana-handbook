@@ -22,7 +22,7 @@ Token program defines a common implementation for fungible and non-fungible toke
 
     Solana's **SPL tokens** are similar to Ethereum's **ERC-20** or **ERC-721** standards. However, Solana does not require you to deploy a new contract for each token you create. Instead, you simply send instructions to the Token program, which will create and mint tokens on your behalf.
 
-![Blockchain](../../images/token_program.png)
+![Blockchain](../images/token_program.png)
 
 <h2>Creating Tokens</h2>
 

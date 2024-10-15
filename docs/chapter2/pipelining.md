@@ -16,7 +16,7 @@ It is not enough to be able to form a consensus and share a block with the rest 
 3. **Banking:** Update of the state using the CPU.
 4. **Write:** The processed transaction are written to the disk in the kernel space and broadcast via network card to the network.
 
-![](../../images/tpu.png)
+![](../images/tpu.png)
 
 !!! info
 

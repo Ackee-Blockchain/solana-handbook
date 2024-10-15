@@ -11,7 +11,7 @@ Block is a data structure that contains a header and a set of [transactions](./t
 
 A blockchain can be thought of as a series of blocks or an append-only data structure that resembles an ordered back-linked [linked list](https://en.wikipedia.org/wiki/Linked_list), which uses hashes as pointers to previous blocks. This structure consists of blocks that form a chain, hence the term blockchain.
 
-![Blockchain](../../images/blockchain.png)
+![Blockchain](../images/blockchain.png)
 
 !!! important
 

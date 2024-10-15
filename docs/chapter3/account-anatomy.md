@@ -16,7 +16,7 @@ Just as in UNIX, where "everything is a file", in Solana "everything is an accou
 
 <h2>Account Anatomy</h2>
 
-![Account Layout](./../../images/account-layout.png)
+![Account Layout](../images/account-layout.png)
 
 **1. Lamports**
 

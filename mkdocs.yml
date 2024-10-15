@@ -5,53 +5,56 @@ repo_name: Ackee-Blockchain/solana-handbook
 site_description: For Experts by Experts
 site_author: Ackee Blockchain
 
+
+edit_uri: ''
+
 nav:
   - Solana Introduction:
-      - handbook/chapter1/index.md
-      - Introduction: handbook/chapter1/introduction.md
-      - Blockchain: handbook/chapter1/blockchain.md
-      - Transaction: handbook/chapter1/transaction.md
-      - Infrastructure: handbook/chapter1/infrastructure.md
-      - Security: handbook/chapter1/security.md
-      - Slots, Epochs and Leaders: handbook/chapter1/slots-epochs-leaders.md
-      - Smart Contract: handbook/chapter1/smart-contract.md
-      - Ecosystem: handbook/chapter1/ecosystem.md
+      - chapter1/index.md
+      - Introduction: chapter1/introduction.md
+      - Blockchain: chapter1/blockchain.md
+      - Transaction: chapter1/transaction.md
+      - Infrastructure: chapter1/infrastructure.md
+      - Security: chapter1/security.md
+      - Slots, Epochs and Leaders: chapter1/slots-epochs-leaders.md
+      - Smart Contract: chapter1/smart-contract.md
+      - Ecosystem: chapter1/ecosystem.md
   - Core Concepts:
-      - handbook/chapter2/index.md
-      - Proof of History: handbook/chapter2/proof-of-history.md
-      - Tower BFT: handbook/chapter2/tower-bft.md
-      - Turbine: handbook/chapter2/turbine.md
-      - Gulf Stream: handbook/chapter2/gulf-stream.md
-      - Sealevel: handbook/chapter2/sealevel.md
-      - Pipelining: handbook/chapter2/pipelining.md
-      - Cloudbreak: handbook/chapter2/cloudbreak.md
-      - Archivers: handbook/chapter2/archivers.md
+      - chapter2/index.md
+      - Proof of History: chapter2/proof-of-history.md
+      - Tower BFT: chapter2/tower-bft.md
+      - Turbine: chapter2/turbine.md
+      - Gulf Stream: chapter2/gulf-stream.md
+      - Sealevel: chapter2/sealevel.md
+      - Pipelining: chapter2/pipelining.md
+      - Cloudbreak: chapter2/cloudbreak.md
+      - Archivers: chapter2/archivers.md
   - Programming Model:
-      - handbook/chapter3/index.md
-      - Interacting with the Network: handbook/chapter3/interacting-with-the-network.md
-      - Transaction Lifecycle: handbook/chapter3/transaction-lifecycle.md
-      - Transaction Anatomy: handbook/chapter3/transaction-anatomy.md
-      - Account Anatomy: handbook/chapter3/account-anatomy.md
-      - Runtime Policy: handbook/chapter3/runtime-policy.md
-      - Program Derived Address: handbook/chapter3/program-derived-address.md
-      - Cross Program Invocation: handbook/chapter3/cross-program-invocation.md
+      - chapter3/index.md
+      - Interacting with the Network: chapter3/interacting-with-the-network.md
+      - Transaction Lifecycle: chapter3/transaction-lifecycle.md
+      - Transaction Anatomy: chapter3/transaction-anatomy.md
+      - Account Anatomy: chapter3/account-anatomy.md
+      - Runtime Policy: chapter3/runtime-policy.md
+      - Program Derived Address: chapter3/program-derived-address.md
+      - Cross Program Invocation: chapter3/cross-program-invocation.md
   - Solana Program Library:
-      - handbook/chapter4/index.md
-      - Token Program: handbook/chapter4/token-program.md
-      - Mint Account: handbook/chapter4/mint-account.md
-      - Token Account: handbook/chapter4/token-account.md
-      - Token-2022: handbook/chapter4/token-2022.md
-      - Account Compression: handbook/chapter4/account-compression-program.md
+      - chapter4/index.md
+      - Token Program: chapter4/token-program.md
+      - Mint Account: chapter4/mint-account.md
+      - Token Account: chapter4/token-account.md
+      - Token-2022: chapter4/token-2022.md
+      - Account Compression: chapter4/account-compression-program.md
   - Appendices:
-    - handbook/appendices/index.md
+    - appendices/index.md
     - Ecosystem:
-      - Popular Projects: handbook/appendices/appendixA/popular-projects.md
+      - Popular Projects: appendices/appendixA/popular-projects.md
     - NFTs:
-      - Metaplex: handbook/appendices/appendixB/metaplex.md
-      - Non-Fungible Tokens: handbook/appendices/appendixB/non-fungible-tokens.md
-      - Token Metadata Program: handbook/appendices/appendixB/token-metadata-program.md
-      - Storing Metadata Off-chain: handbook/appendices/appendixB/metadata-off-chain.md
-      - Token Types: handbook/appendices/appendixB/token-types.md
+      - Metaplex: appendices/appendixB/metaplex.md
+      - Non-Fungible Tokens: appendices/appendixB/non-fungible-tokens.md
+      - Token Metadata Program: appendices/appendixB/token-metadata-program.md
+      - Storing Metadata Off-chain: appendices/appendixB/metadata-off-chain.md
+      - Token Types: appendices/appendixB/token-types.md
 
 # Beware this is strongly dependent on names of folders , example:
 # images have to be stored within the docs/images folder
@@ -59,7 +62,7 @@ theme:
   # https://squidfunk.github.io/mkdocs-material/setup/
   name: material
   logo: "images/solana-logo-mark-1.png"
-  favicon: "images/solana-handbook-icon.png"
+  favicon: "images/favicon.ico"
   custom_dir: overrides
   # https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/?h=palette+sw#color-palette-toggle
   palette:
@@ -85,6 +88,7 @@ theme:
     - navigation.tabs
     # may be used
     # - navigation.footer
+  use_directory_urls: false
 
 # https://squidfunk.github.io/mkdocs-material/setup/setting-up-the-footer/?h=social#social-links
 extra:

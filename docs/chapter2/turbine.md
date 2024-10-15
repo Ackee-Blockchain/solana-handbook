@@ -7,8 +7,8 @@ Turbine is a block propagation protocol designed to reduce both time needed for 
 
 Nodes in the network are divided into small partitions called **neighborhoods**. Nodes within a particular neighborhood are responsible for sharing received data with other nodes in the same neighborhood and propagating the data to a small number of nodes in other neighborhoods.
 
-![Blockchain](../../images/neighbours2.png)
-![Blockchain](../../images/neighbours.png)
+![Blockchain](../images/neighbours2.png)
+![Blockchain](../images/neighbours.png)
 
 !!! info
 
