@@ -147,3 +147,51 @@ img {
     width: auto;
     border-radius: 0;
 }
+
+/* Index Page Style */
+.vertical-align-right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 100%;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    /* Two equal columns */
+    align-items: center;
+    /* Vertically center the content */
+    gap: 20px;
+    /* Space between the columns */
+}
+
+  .text-box {
+    width: 60%;
+  }
+
+@media (max-width: 1130px) {
+    .grid-container {
+        display: block;
+        width: 900px
+    }
+
+    .text-box {
+        width: 900px;
+    }
+
+    .grid-container .vertical-align-right {
+        display: none;
+    }
+}
+
+@media (max-width: 950px) {
+    .grid-container {
+        display: block;
+        width: auto;
+    }
+
+    .text-box {
+        width: 100%;
+    }
+}

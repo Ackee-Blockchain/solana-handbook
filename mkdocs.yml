@@ -2,8 +2,8 @@ site_name: Solana Handbook
 site_url: https://ackee.xyz/solana/book
 repo_url: https://github.com/Ackee-Blockchain/solana-handbook
 repo_name: Ackee-Blockchain/solana-handbook
-site_description: For Experts by Experts
-site_author: Ackee Blockchain
+site_description: A comprehensive guide by Solana experts, covering core concepts, programming models and security.
+site_author: Ackee Blockchain Security
 
 
 edit_uri: ''
@@ -99,6 +99,11 @@ extra:
       link: https://discord.gg/Q3J5KUXuXK
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/AckeeBlockchain
+  meta:
+    description: "A comprehensive guide by experts on Solana, covering core concepts, programming models and security."
+    keywords: "Solana, Solana Handbook, Solana Security, Solana Programming, Solana Development"
+    author: "Ackee Blockchain Security"
+    og:image: "images/solana-handbook-open-graph-image.png"  # Social media preview image
 
 # https://www.mkdocs.org/user-guide/configuration/#plugins
 plugins:
@@ -108,6 +113,10 @@ plugins:
       minify_html: true
   - git-revision-date-localized:
       enable_creation_date: false
+  - social:
+      cards_layout_options:
+        background_color: "#000000"
+        # background_image: images/solana-handbook-open-graph-image.png
 
 # https://squidfunk.github.io/mkdocs-material/customization/?h=extra+css#additional-css
 extra_css:

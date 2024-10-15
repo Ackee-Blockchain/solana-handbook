@@ -1,4 +1,5 @@
 ---
+title: "Solana Handbook"
 hide:
   - navigation
   - toc
@@ -7,15 +8,15 @@ hide:
 
 <h1 style="font-size: 60px;">Solana Handbook</h1>
 
-![Solana](./images/solana-glass-dark-3.png){ align=right}
-
+<div markdown class="text-box">
 ## Learn the fundamentals of Solana!
 
 This handbook was written for developers, auditors and anyone interested in how Solana works. Starting with the basics and terminology, it gradually introduces more advanced topics, providing a comprehensive overview without going too in-depth.
 
 Good luck, and enjoy the journey!
-<div markdown>
+</div >
 
+<div class="grid-container" markdown>
 <div class="grid cards" markdown>
 
 -   :material-book-open-page-variant:{ .lg .middle } __Solana Basics__
@@ -51,12 +52,16 @@ Good luck, and enjoy the journey!
     [__Solana Program Library__](./chapter4/index.md)
 
 </div>
+
+<div class="vertical-align-right">
+    <img src="./images/solana-glass-dark-3.png" alt="Solana">
+</div>
 </div>
 
+<div markdown class="text-box">
 ## About Authors
 
-<div markdown style="width: 850px">
-This handbook was created with love by Solana Auditors and Developers of Ackee.
+This handbook was created with love by Solana Auditors and Developers of [__Ackee__](https://ackee.xyz/).
 
 Ackee is a blockchain security company founded in 2021, specializing in audits and other security assessments.
 

@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+
+<!-- Stop appending site name to the tab title -->
+{% block htmltitle %}
+    {% if page.meta and page.meta.title %}
+        <title>{{ page.meta.title }}</title>
+    {% elif page.title and not page.is_homepage %}
+        <title>{{ page.title | striptags }}</title>
+    {% else %}
+        <title>{{ config.site_name }}</title>
+    {% endif %}
+{% endblock %}
