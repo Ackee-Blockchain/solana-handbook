@@ -1,5 +1,4 @@
 mkdocs
-mike
 mkdocs-minify-plugin
 mkdocs-git-revision-date-localized-plugin
 mkdocs-awesome-pages-plugin
