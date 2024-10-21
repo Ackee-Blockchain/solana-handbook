@@ -33,7 +33,7 @@ Hash<sub>n-1</sub> + Message<sub>n</sub> → Hash<sub>n</sub></code></pre>
 
 !!! note
 
-    Using PoH, we are able establish the exact order of messages because we can prove that **Message<sub>n</sub>** occured after **Message<sub>n-1</sub>** and before **Message<sub>n+1</sub>**.
+    Using PoH, we are able to establish the exact order of messages because we can prove that **Message<sub>n</sub>** occured after **Message<sub>n-1</sub>** and before **Message<sub>n+1</sub>**.
 
 <h2>Phases of PoH</h2>
 
