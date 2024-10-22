@@ -11,7 +11,7 @@ It is not enough to be able to form a consensus and share a block with the rest 
 
 <h2>Stages of the TPU pipeline</h2>
 
-1. **Data fetch:** Incoming data is fetched the in kernel space via network card.
+1. **Data fetch:** Incoming data is fetched in the kernel space via network card.
 2. **Signature verification:** The GPU handles signature verification.
 3. **Banking:** Update of the state using the CPU.
 4. **Write:** The processed transaction are written to the disk in the kernel space and broadcast via network card to the network.
