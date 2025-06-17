@@ -12,13 +12,11 @@ The goals of PBFT are to ensure:
 - **Safety**: Results are valid and identical across all non-faulty nodes.
 - **Liveness**: Nodes that don’t fail will always produce a result.
 
-!!! note
-
-    Safety is guaranteed because the process is deterministic, meaning it always produces the same results across all non-faulty nodes. The liveness guarantee is enabled by the view-change mechanism, which allows nodes to switch leaders if the current leader appears to be malicious or faulty.
+Safety is guaranteed because the process is deterministic, meaning it always produces the same results across all non-faulty nodes. The liveness guarantee is enabled by the view-change mechanism, which allows nodes to switch leaders if the current leader appears to be malicious or faulty.
 
 <h2>View-change</h2>
 
-View-changes occur when a leader appears to have failed, and so another node attempts to take his place by initiating an election process. This process is triggered by timeouts that prevent nodes from waiting indefinitely for unexecuted requests. The timeout is postponed whenever the protocol detects that nodes are nearing agreement on the current block.
+PBFT's view-change mechanism is triggered when a leader appears to have failed, and so another node attempts to take his place by initiating an election process. This process is triggered by timeouts that prevent nodes from waiting indefinitely for unexecuted requests. The timeout is postponed whenever the protocol detects that nodes are nearing agreement on the current block.
 
 <h2>TBFT vs PBFT</h2>
 
