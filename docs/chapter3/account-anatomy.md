@@ -59,9 +59,8 @@ Just as in UNIX, where "everything is a file", in Solana "everything is an accou
 
 **5. Rent Epoch**
 
-  - To maintain an account on Solana, a fee called rent has to be paid periodically.
-  - An account is considered rent-exempt if it holds at least two years’ worth of rent.
-  - Every epoch runtime checks whether the account should pay rent or is rent-exempt.
+  - Solana previously implemented a rent collection mechanism that charged fees from accounts with balances insufficient to cover 2 years of rent payments.
+  - The rent epoch field remains in the account structure but is no longer actively used.
 
 <h2>Account Types</h2>
 
