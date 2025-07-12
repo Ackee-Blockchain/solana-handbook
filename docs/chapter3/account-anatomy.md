@@ -55,7 +55,7 @@ Just as in UNIX, where "everything is a file", in Solana "everything is an accou
 
 !!! note
 
-    Account becomes **read-only** it is made executable.
+    Account becomes **read-only** once it is made executable.
 
 **5. Rent Epoch**
 
