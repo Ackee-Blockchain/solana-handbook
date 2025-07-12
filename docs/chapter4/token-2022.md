@@ -12,7 +12,7 @@ The Token-2022 program extends the functionality provided by the [Token program]
 
 !!! tip
 
-    To see the source code, check out [Solana Program Library Token-2022 program](https://github.com/solana-labs/solana-program-library/tree/master/token/program-2022).
+    To see the source code, check out [Solana Program Library Token-2022 program](https://github.com/solana-program/token-2022/tree/main/program).
 
 <h2>Benefits</h2>
 

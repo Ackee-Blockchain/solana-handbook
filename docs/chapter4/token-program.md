@@ -15,7 +15,7 @@ Token program defines a common implementation for fungible and non-fungible toke
 
 !!! tip
 
-    To see the source code, check out [Solana Program Library Token program](https://github.com/solana-labs/solana-program-library/tree/master/token/program).
+    To see the source code, check out [Solana Program Library Token program](https://github.com/solana-program/token/tree/main/program).
 
 
 !!! info
