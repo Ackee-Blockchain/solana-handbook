@@ -32,7 +32,7 @@ xNFTs take a radically practical approach to solving two of web3’s main proble
 
 Compressed NFTs use [state compression and Merkle trees](../../chapter4/account-compression-program.md) to drastically reduce the storage cost for NFTs. Instead of storing metadata in a typical Solana account, compressed NFTs store the metadata within the ledger. This allows compressed NFTs to still inherit the security and speed of the Solana blockchain, while at the same time reducing the overall storage costs.
 
-Even though the on-chain data storage mechanism is different than their uncompressed counterparts, compressed NFTs still follow the exact same metadata schema/structure. Allowing you to define your collection and NFT in an identical way.
+Even though the on-chain data storage mechanism is different than their uncompressed counterparts, compressed NFTs still follow the exact same metadata schema/structure, allowing you to define your collection and NFT in an identical way.
 
 !!! note
 

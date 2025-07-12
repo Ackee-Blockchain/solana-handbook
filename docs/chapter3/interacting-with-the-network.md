@@ -25,7 +25,7 @@ The methods vary from simple queries, such as retrieving specific account inform
 
 !!! important
 
-    The ability to send transactions is crucial because is the only way we can alter data on the blockchain. All write operations, including account creation or transfer of tokens are done through transactions.
+    The ability to send transactions is crucial because it is the only way we can alter data on the blockchain. All write operations, including account creation or transfer of tokens are done through transactions.
 
 !!! info
 
