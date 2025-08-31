@@ -25,9 +25,15 @@ jobs:
         run: |
           git config --global user.email "solanahandbook@ackee.com"
           git config --global user.name "Handbook bot"
-          mike deploy -b documentation latest
+          mkdocs gh-deploy --remote-branch documentation --ignore-version
       - name: Checkout documentation branch
         run: git checkout -f documentation
+      - name: Pull workflow branch
+        run: |
+          git fetch origin workflow
+          git checkout origin/workflow -- .github
+          git add .github
+          git commit -m "Add workflows from workflow branch" || echo "No changes to commit"
       - name: Push documentation
         uses: ad-m/github-push-action@master
         with:
