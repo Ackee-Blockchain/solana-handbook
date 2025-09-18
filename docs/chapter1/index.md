@@ -3,9 +3,11 @@ hide:
   - toc
 ---
 
-# Solana Introduction
+# Solana Core Concepts and Terminology
 
-Learn what **Solana** is and understand basic blockchain terminology, from **blocks** to **smart contracts**.
+Learn the fundamentals of **Solana**, from its core concepts to essential terminology like **blocks**, **transactions**, and **smart contracts**. This guide is perfect for developers and students looking for a comprehensive introduction to Solana. 
+
+Ready to start learning Solana? Dive in by clicking the [__Introduction__](./introduction.md) card below.
 
 <br />
 
@@ -76,3 +78,8 @@ Learn what **Solana** is and understand basic blockchain terminology, from **blo
     [__Ecosystem__](./ecosystem.md)
 
 </div>
+
+
+
+
+
