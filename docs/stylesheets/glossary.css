@@ -1,0 +1,150 @@
+/* Add pop-out definitions */
+.tooltip {
+    position: relative;
+    cursor: pointer;
+    color: #6d63ec;
+    font-weight: bold;
+}
+
+.tooltip::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    left: 50%;
+    bottom: 125%;
+    transform: translateX(-50%);
+    background: #6d63ec;
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 6px;
+
+    /* Responsive width handling */
+    max-width: 500px;
+    width: max-content;
+    white-space: normal;
+    word-wrap: break-word;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.4;
+
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s;
+    z-index: 1000;
+}
+
+.tooltip:hover::after {
+    opacity: 1;
+}
+
+/* Medium screen adjustments */
+@media (max-width: 850px) and (min-width: 481px) {
+    .tooltip::after {
+        max-width: 250px;
+        font-size: 13px;
+        padding: 7px 11px;
+
+        /* Center on screen instead of relative to element */
+        left: 50%;
+        transform: translateX(-50%);
+        position: fixed;
+        bottom: auto;
+        top: 30%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+
+/* Small screen adjustments */
+@media (max-width: 450px) {
+    .tooltip::after {
+        max-width: 200px;
+        font-size: 14px;
+        padding: 6px 10px;
+
+        /* Center on screen instead of relative to element */
+        left: 50%;
+        transform: translateX(-50%);
+        position: fixed;
+        bottom: auto;
+        top: 30%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+/* Prevent tooltip from going off-screen on left/right edges */
+.tooltip.tooltip-left::after {
+    left: 0;
+    transform: translateX(0);
+}
+
+.tooltip.tooltip-right::after {
+    left: auto;
+    right: 0;
+    transform: translateX(0);
+}
+
+/* Alternative: Show tooltip above or below based on space */
+.tooltip.tooltip-bottom::after {
+    bottom: auto;
+    top: 125%;
+}
+
+/* ******************************************************** */
+/* Glossary definitions for tooltips */
+/* ******************************************************** */
+
+.def-blocks::after {
+    content: "a data structure that contains a header and a set of transactions";
+}
+
+.def-transactions::after {
+    content: "a transfer of value or execution of code";
+}
+
+.def-smart-contracts::after {
+    content: "self-executing code deployed on a blockchain";
+}
+
+.def-dapps::after {
+    content: "apps made with smart contracts that run on a blockchain";
+}
+
+.def-cryptocurrencies::after {
+    content: "type of digital money stored on a blockchain";
+}
+
+.def-defi::after {
+    content: "financial services built on blockchains";
+}
+
+.def-nfts::after {
+    content: "unique digital token that can't be replaced or exchanged equally with another token";
+}
+
+.def-validators::after {
+    content: "network participants who verify and process transactions";
+}
+
+.def-poh::after {
+    content: "a cryptographic clock that timestamps transactions before consensus";
+}
+
+.def-bft::after {
+    content: "Solana's consensus mechanism that uses Proof of History for efficiency";
+}
+
+.def-parallel-processing::after {
+    content: "processing multiple transactions simultaneously instead of one by one";
+}
+
+.def-sdks::after {
+    content: "software development kits that help developers build applications";
+}
+
+.def-cryptography::after {
+    content: "mathematical techniques used to secure and verify data";
+}
+
+.def-consensus-protocols::after {
+    content: "rules that network participants follow to agree on transaction validity";
+}

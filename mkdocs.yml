@@ -121,6 +121,7 @@ plugins:
 # https://squidfunk.github.io/mkdocs-material/customization/?h=extra+css#additional-css
 extra_css:
   - stylesheets/extra.css
+  - stylesheets/glossary.css 
 
 markdown_extensions:
   # https://squidfunk.github.io/mkdocs-material/reference/code-blocks/#code-blocks

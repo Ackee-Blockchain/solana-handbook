@@ -6,18 +6,12 @@ hide:
 # Key Solana and Blockchain Terminology
 
 Learn the fundamentals of **Solana**, from its core concepts to essential terminology like 
-  <span class="tooltip" data-tooltip="a data structure that contains a header and a set of transactions.">
-    <strong>blocks</strong>
-  </span>, 
-  <span class="tooltip" data-tooltip="a transfer of value or execution of code">
-    <strong>transactions</strong>
-  </span>, and 
-  <span class="tooltip" data-tooltip="a piece of code deployed on a blockchain.">
-    <strong>smart contracts</strong>
-  </span>. 
+<strong class="tooltip def-blocks">blocks</strong>, 
+<strong class="tooltip def-transactions">transactions</strong>, and 
+<strong class="tooltip def-smart-contracts">smart contracts</strong>. 
 This guide is perfect for developers and students looking for a comprehensive introduction to Solana. 
 
-Ready to start learning Solana? Dive in by clicking the [__Introduction__](./introduction.md) card below.
+Ready to start learning? Dive in by clicking on a topic below.
 
 <br />
 

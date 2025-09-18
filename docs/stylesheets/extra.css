@@ -101,96 +101,6 @@
     mask-image: var(--md-admonition-icon--insight);
 }
 
-/* Add pop-out definitions */
-.tooltip {
-    position: relative;
-    cursor: pointer;
-    border-bottom: 1px solid #6d63ec;
-}
-
-.tooltip::after {
-    content: attr(data-tooltip);
-    position: absolute;
-    left: 50%;
-    bottom: 125%;
-    transform: translateX(-50%);
-    background: #6d63ec;
-    color: #fff;
-    padding: 8px 12px;
-    border-radius: 6px;
-
-    /* Responsive width handling */
-    max-width: 550px;
-    width: max-content;
-    white-space: normal;
-    word-wrap: break-word;
-    text-align: center;
-    font-size: 18px;
-    line-height: 1.4;
-
-    opacity: 0;
-    pointer-events: none;
-    transition: opacity 0.2s;
-    z-index: 1000;
-}
-
-.tooltip:hover::after {
-    opacity: 1;
-}
-
-/* Medium screen adjustments */
-@media (max-width: 850px) and (min-width: 481px) {
-    .tooltip::after {
-        max-width: 250px;
-        font-size: 13px;
-        padding: 7px 11px;
-
-        /* Center on screen instead of relative to element */
-        left: 50%;
-        transform: translateX(-50%);
-        position: fixed;
-        bottom: auto;
-        top: 50%;
-        transform: translate(-50%, -50%);
-    }
-}
-
-
-/* Small screen adjustments */
-@media (max-width: 450px) {
-    .tooltip::after {
-        max-width: 200px;
-        font-size: 14px;
-        padding: 6px 10px;
-
-        /* Center on screen instead of relative to element */
-        left: 50%;
-        transform: translateX(-50%);
-        position: fixed;
-        bottom: auto;
-        top: 50%;
-        transform: translate(-50%, -50%);
-    }
-}
-
-/* Prevent tooltip from going off-screen on left/right edges */
-.tooltip.tooltip-left::after {
-    left: 0;
-    transform: translateX(0);
-}
-
-.tooltip.tooltip-right::after {
-    left: auto;
-    right: 0;
-    transform: translateX(0);
-}
-
-/* Alternative: Show tooltip above or below based on space */
-.tooltip.tooltip-bottom::after {
-    bottom: auto;
-    top: 125%;
-}
-
 /* Custom Example Admonition */
 :root {
     --md-admonition-icon--example: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2l2.4 4.8 5.3.8-3.8 3.7.9 5.3-4.8-2.5-4.8 2.5.9-5.3-3.8-3.7 5.3-.8L12 2z"/></svg>');
@@ -298,5 +208,89 @@ img {
 
     .mobile-image img {
         height: 100%;
+    }
+}
+
+/* Topic Navigation Card Grid */
+.topic-nav-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.topic-nav-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #f8f8ff;
+    border: 2px solid #6d63ec;
+    border-radius: 12px;
+    padding: 1em;
+    text-decoration: none;
+    color: #222;
+    transition: box-shadow 0.2s, border-color 0.2s;
+    box-shadow: 0 2px 8px rgba(109, 99, 236, 0.08);
+    font-weight: 500;
+
+}
+
+.topic-nav-card:hover {
+    border-color: #a259ff;
+    box-shadow: 0 4px 16px rgba(109, 99, 236, 0.16);
+    background: #eceaff;
+    color: #6d63ec;
+}
+
+.topic-nav-icon {
+    font-size: 2em;
+    margin: 0 1em;
+    color: #6d63ec;
+    font-weight: bold;
+}
+
+.topic-nav-card.prev .topic-nav-icon {
+    order: 0;
+}
+
+.topic-nav-card.prev .topic-nav-title,
+.topic-nav-card.prev .topic-nav-desc {
+    order: 1;
+}
+
+.topic-nav-card.next .topic-nav-title,
+.topic-nav-card.next .topic-nav-desc {
+    order: 0;
+}
+
+.topic-nav-card.next .topic-nav-icon {
+    order: 1;
+}
+
+.topic-nav-title {
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-bottom: 0.2em;
+}
+
+.topic-nav-desc {
+    font-size: 0.95em;
+    color: #555;
+    margin-left: 0.5em;
+}
+
+@media (max-width: 700px) {
+    .topic-nav-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .topic-nav-card {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .topic-nav-icon {
+        margin: 0 0.5em;
     }
 }
