@@ -3,22 +3,42 @@ hide:
   - toc
 ---
 
-Solana is a blockchain platform that allows people to build and use decentralized applications (dApps) and cryptocurrencies. It was created in 2017 by Anatoly Yakovenko and officially launched its mainnet beta in March 2020.
+## What is Solana?
 
-<h2>Blockchain Trilemma</h2>
+Solana is a **high-performance blockchain platform** built to support decentralized applications (dApps), cryptocurrencies, and Web3 innovation. Created in 2017 by Anatoly Yakovenko and launched in 2020, Solana has quickly become one of the most active ecosystems in the blockchain space.
 
-The blockchain trilemma refers to a problem that blockchains face when trying to achieve three important things at once:
+Known for its **speed and low fees**, Solana stands out as one of the fastest-growing blockchains in Web3. While Bitcoin or Ethereum process a limited number of transactions per second, Solana can handle **thousands of transactions per second** while keeping fees typically under a penny. This makes it attractive for developers building everything from decentralized finance (DeFi) apps to non-fungible tokens (NFTs) and Web3 social platforms.
 
-- **Scalability**: Being fast and able to handle many transactions.
-- **Security**: Ensuring the system is resistant to attacks.
-- **Decentralization**: Controlled by many people instead of just one group.
+## The blockchain trilemma
 
-Usually, improving one of these aspects can make the others weaker. For example, if a blockchain is very secure and decentralized, it might struggle to process transactions quickly. The main value proposition of Solana is solving the blockchain trilemma, i.e., delivering scalability, decentralization, and security without sacrificing any of the three mentioned features.
+Every blockchain faces a challenge known as the **blockchain trilemma**. This is the difficulty of achieving three goals at once:
 
-<h2>Development on Solana</h2>
+**Scalability:** 
 
-Solana’s ecosystem revolves around the **Rust** programming language and its ecosystem. Although **Rust** is the primary language for smart contract development, **C** and **C++** are also supported.
+* Being able to process thousands of transactions per second quickly.
+* Measured in transactions per second (TPS).
 
-!!! note
+**Security:**
 
-    Solana also provides libraries and tools for **JavaScript** and **TypeScript** developers to interact with the blockchain.
+* Ensuring the network is resistant to hacks and attacks.
+* Protected through cryptography and consensus protocols.
+
+**Decentralization:**
+
+* Preventing control by any single group or person. 
+* Achieved by distributing power to a network of validators. 
+
+Most blockchains can achieve two of these but struggle with the third. For example, Bitcoin is highly secure and decentralized but processes transactions slowly. Some newer chains achieve speed but sacrifice decentralization.
+
+**Solana's value proposition** is solving this trilemma. With technologies like **Proof of History (PoH)**, **Tower BFT consensus**, and **parallel transaction processing**, Solana combines scalability, security, and decentralization without sacrificing one for the other. 
+
+## Development on Solana
+
+Solana is built with developers in mind. Its smart contracts are primarily written in **Rust**, a programming language known for speed and memory safety.
+
+Other supported options include:
+* **Anchor Framework**: A Rust-based framework that simplifies Solana development.
+* **C and C++**: Useful for low-level control or porting existing code.
+* **JavaScript/TypeScript SDKs**: For building front-end applications that interact with Solana programs.
+
+Beyond languages, Solana offers **robust tooling, libraries, and a strong developer community**, making it easier to build and launch decentralized applications.

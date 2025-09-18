@@ -9,9 +9,9 @@ site_author: Ackee Blockchain Security
 edit_uri: ''
 
 nav:
-  - Solana Introduction:
+  - Key Terms Introduction:
       - chapter1/index.md
-      - Introduction: chapter1/introduction.md
+      - Solana: chapter1/introduction.md
       - Blockchain: chapter1/blockchain.md
       - Transaction: chapter1/transaction.md
       - Infrastructure: chapter1/infrastructure.md
