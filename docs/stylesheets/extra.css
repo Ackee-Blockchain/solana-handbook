@@ -167,7 +167,7 @@ img {
 }
 
 .text-box {
-width: 60%;
+    width: 60%;
 }
 
 .mobile-image {
@@ -208,5 +208,89 @@ width: 60%;
 
     .mobile-image img {
         height: 100%;
+    }
+}
+
+/* Topic Navigation Card Grid */
+.topic-nav-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.topic-nav-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #f8f8ff;
+    border: 2px solid #6d63ec;
+    border-radius: 12px;
+    padding: 1em;
+    text-decoration: none;
+    color: #222;
+    transition: box-shadow 0.2s, border-color 0.2s;
+    box-shadow: 0 2px 8px rgba(109, 99, 236, 0.08);
+    font-weight: 500;
+
+}
+
+.topic-nav-card:hover {
+    border-color: #a259ff;
+    box-shadow: 0 4px 16px rgba(109, 99, 236, 0.16);
+    background: #eceaff;
+    color: #6d63ec;
+}
+
+.topic-nav-icon {
+    font-size: 2em;
+    margin: 0 1em;
+    color: #6d63ec;
+    font-weight: bold;
+}
+
+.topic-nav-card.prev .topic-nav-icon {
+    order: 0;
+}
+
+.topic-nav-card.prev .topic-nav-title,
+.topic-nav-card.prev .topic-nav-desc {
+    order: 1;
+}
+
+.topic-nav-card.next .topic-nav-title,
+.topic-nav-card.next .topic-nav-desc {
+    order: 0;
+}
+
+.topic-nav-card.next .topic-nav-icon {
+    order: 1;
+}
+
+.topic-nav-title {
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-bottom: 0.2em;
+}
+
+.topic-nav-desc {
+    font-size: 0.95em;
+    color: #555;
+    margin-left: 0.5em;
+}
+
+@media (max-width: 700px) {
+    .topic-nav-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .topic-nav-card {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .topic-nav-icon {
+        margin: 0 0.5em;
     }
 }
